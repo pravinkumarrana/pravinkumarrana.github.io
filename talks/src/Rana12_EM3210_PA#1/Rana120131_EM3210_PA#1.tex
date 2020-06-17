@@ -1,0 +1,544 @@
+\documentclass[8pt]{beamer}
+\mode<presentation>
+{
+  \usetheme{boxes}
+  \setbeamercovered{transparent}
+}
+\usepackage{subfig}
+\usepackage{amsmath,epsfig, psfrag, hyperref}
+\usepackage{amssymb, algorithm, algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{caption}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\title[Project Assignment \#1] {\textbf{Project Assignment \#1}}
+\author{\textbf{FEM1230 Estimation Theory}}
+
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  \begin{center}
+  \textcolor[rgb]{0.29,0.29,0.29}{\textbf{Pravin Kumar Rana}} \textcolor[rgb]{0.29,0.29,0.29}{\\SIP, School of Electrical Engineering\\ Kungliga Tekniska högskolan \\ SE-$100 44$ Stockholm}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Outline}
+\begin{block}{}
+\begin{itemize}
+  \item Signal Model\vspace{3mm}
+  \item Cramer-Rao Lower Bound\vspace{3mm}
+  \item Maximum Likelihood Estimation\vspace{3mm}
+  \item Simulation Results
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+%Measurements and Data Model
+\section{Signal Model}
+\begin{frame}{Signal Model}
+\begin{itemize}
+  \item Assume a signal model
+    \begin{equation}
+    y[n] = s[n] + w[n] \quad n = 1, 2, \ldots, N-1
+    \end{equation}
+    where the signal of interest $s[n]$ modeled by
+    \begin{equation}
+    s[n; A, B, C, \omega] = A \cos(\omega n) + B \sin(\omega n) + C
+    \end{equation}
+    with A, B, C as unknown constants and $w[n]$ the additive zero mean noise.\vspace{3mm}
+  \item Angular frequency $\omega$ may be known, or not, leading to models with three or four unknown parameters, respectively.\vspace{3mm}
+  \item Consider the leakage parameter $L$, given as
+    \begin{equation}
+        L = \frac{2C^2}{A^2+B^2}.
+    \end{equation}
+\end{itemize}
+\end{frame}
+
+% Cramer-Rao Lower Bound
+\section{Cramer-Rao Lower Bound}
+\begin{frame}{Cramer-Rao Lower Bound}
+\begin{itemize}
+\item Regularity conditions hold
+\begin{itemize}
+  \item The Gaussian probability density function for the signal model
+    \begin{equation}
+    {  \displaystyle{p(\mathbf{y},\mathbf{\theta})=\frac{1}{(2\pi \sigma^2)^{\frac{N}{2}}}\exp\left[\frac{-1}{2\sigma^2}(\mathbf{y}-\mathbf{s}(\mathbf{\theta}))^{T}(\mathbf{y}-\mathbf{s}(\mathbf{\theta}))\right],}}
+    \end{equation}
+    satisfies the \emph{regularity} conditions for all $\theta$, i.e.,
+    \begin{align}\nonumber
+    \displaystyle{\mathrm{E}\left[ \frac{\partial \ln p(\mathbf{y};\mathbf{\theta)}} {\partial \mathbf{\theta}}\right]} = 0 \quad \forall \theta
+    \end{align}
+     where  $\mathbf{y} = [y[0]\ldots y[N-1]]^{T}$ and  $\mathbf{s}(\mathbf{\theta})=[s[0;\mathbf{\theta} ]\ldots s[N-1;\mathbf{\theta}]]^{T}$.
+\end{itemize}
+\item Calculate the Fisher information matrix
+\begin{itemize}
+  \item[] \begin{align}\label{FM1}
+        \mathbf{I}={\left[
+        \begin{array}{cccc}
+        \frac{N}{2\sigma^2} & 0 & 0 & \frac{B N(N-1)}{4\sigma^2} \\
+        0 & \frac{N}{2\sigma^2} & 0 & -\frac{A N(N-1)}{4\sigma^2} \\
+        0 & 0 & \frac{N}{\sigma^2} & 0 \\
+        \frac{B N(N-1)}{4\sigma^2} & -\frac{A N(N-1)}{4\sigma^2} & 0 & \frac{(A^2+B^2)(2N^3-3N^2+N)}{12\sigma^2}
+        \end{array}
+    \right]}
+    \end{align}
+    where
+    \begin{eqnarray}\nonumber
+        [\mathbf{I}(\mathbf{\theta})]_{i,j} &=& \frac{1}{\sigma^2}\sum_{n=0}^{N-1}\frac{\partial s[n; \theta]}{\partial \theta_{i}}\frac{\partial s[n; \theta]}{\partial\theta_{j}}.
+    \end{eqnarray}
+    \end{itemize}
+\end{itemize}
+ \end{frame}
+
+%Asymptotic Expression
+\begin{frame}{Cramer-Rao Lower Bound}
+ \begin{itemize}
+    \item The asymptotic expression CRLB is given by
+    \begin{itemize}
+    \item[]\begin{align}\label{CRB1}
+        CRLB(\mathbf{\theta})&=\mathbf{I}(\mathbf{\theta})^{-1}\approx 2\sigma^{2}\mathbf{I}_{1}^{-1},
+    \end{align}
+    where
+    \small{\begin{align}
+            \mathbf{I}_{1}&=\left[
+            \begin{array}{cccc}
+            N & 0 & 0 & \frac{BN^2}{2} \\
+            0 & N & 0 & -\frac{AN^2}{2} \\
+            0 & 0 & 2N & 0 \\
+            \frac{BN^2}{2} & -\frac{AN^2}{2} & 0 & \frac{(A^2+B^2)N^3}{3}
+            \end{array}
+            \right].
+            \end{align}}
+
+
+ \end{itemize}
+ \end{itemize}
+\end{frame}
+
+
+
+%\subsection{Cramer-Rao Bound for Different Parameter Model}
+\begin{frame}{Cramer-Rao Lower Bound}
+\begin{itemize}
+  \item For the three parameter model% (known frequency):
+    \begin{itemize}
+    \item[]  \vspace{-3mm}
+    \begin{align}
+    var(\hat{A}) &\geq CRB(A)\approx \frac{2\sigma^2}{N}\\
+    var(\hat{B}) &\geq CRB(B)\approx \frac{2\sigma^2}{N}\\
+    var(\hat{C}) &\geq CRB(C)\approx \frac{\sigma^2}{N}
+    \end{align}
+    \end{itemize}
+  \item For the four parameter model% (unknown frequency):
+  \begin{itemize}
+  \item[] \vspace{-3mm}
+   \begin{align}
+    var(\hat{A})      &\geq CRB(A)     \approx  \frac{2\sigma^{2}}{N}(1+\frac{3B^2}{\alpha^2})\\
+    var(\hat{B})      &\geq CRB(B)     \approx  \frac{2\sigma^{2}}{N}(1+\frac{3A^2}{\alpha^2})\\
+    var(\hat{C})      &\geq CRB(C)     \approx  \frac{\sigma^2}{N}\\
+    var(\hat{\omega}) &\geq CRB(\omega)\approx  \frac{24\sigma^2}{\alpha^2N^3}
+    \end{align}
+    \end{itemize}
+  \item For the Leakage parameter%, by using the transformation of parameters,
+  \begin{itemize}
+  \item[]   \vspace{-3mm}
+    \begin{align}
+    var(\hat{L})      &\geq CRB(L) = {2\sigma^2}\left(\frac{16C^4}{\alpha^{6}N}+\frac{8C^2}{\alpha^{4}N}\right)
+     %CRB(L) =\left[\frac{\partial L}{\partial \mathbf{\theta}}\right] CRB(\mathbf{\theta})\left[\frac{\partial L}{\partial \mathbf{\theta}}\right]^{T} = {2\sigma^2}\left(\frac{16C^4}{\alpha^{6}N}+\frac{8C^2}{\alpha^{4}N}\right)
+    \end{align}
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+%
+%mle
+\section{Maximum Likelihood Estimation}
+\subsection{Motivation}
+\begin{frame}{Maximum Likelihood Estimation(MLE)}
+
+\begin{block}{Motivation}
+\begin{itemize}
+    \item MLE is \emph{asymptotically optimal} because of its asymptotic properties of being unbiased, achieving the CRLB and having a Gaussian PDF.\vspace{3mm}
+    \item MLE is efficient for the estimation of L and the MLE of the unknown vector parameter $\theta$ is asymptotically distributed according to
+    \begin{align}
+    \hat{\theta} & \overset{a}{\thicksim} \mathcal{N}(\mathbf{\theta}, \mathbf{I}^{-1}(\mathbf{\theta})),
+    \end{align} because PDF $p(y;\theta)$ hold \emph{regularity conditions} (\textbf{{Theorem 7.3 [2]}}). %where $\mathbf{I}(\mathbf{\theta})$ is the Fisher information matrix evaluated at the true value of the unknown parameter $\mathbf{\theta}$
+    \end{itemize}
+\end{block}
+\end{frame}
+
+\subsection{Three Parameter Model}
+\begin{frame}{Three Parameter Model}
+\begin{itemize}
+  \item ${s[n,\mathbf{\theta}]}$ is linear in parameters $\mathbf{\theta}$, i.e.,
+\begin{align}\label{eq:22}
+\mathbf{s} &= \mathbf{H}\mathbf{\theta}
+\end{align}where $\theta=[A~ B~ C]^{T}$ and
+\begin{align}\label{H1}
+\mathbf{H} &= \left[\begin{array}{ccc}
+               1                    & 0                 & 1 \\
+               \cos(\omega)         & \sin(\omega)      & 1 \\
+               \vdots               & \vdots            & \vdots \\
+               \cos(\omega (N-1))   & \sin(\omega(N-1)) & 1\\
+               \end{array}\right].
+\end{align}
+\item Under Gaussian assumption, the MLE of $\mathbf{\theta}$ is found by minimizing
+\begin{align}\label{eq:22}
+J(\mathbf{\theta}) &=  (\mathbf{y}-\mathbf{H\theta})^{T}(\mathbf{y}-\mathbf{H\theta}).
+\end{align}
+\item The minimizing solution $\hat{\mathbf{\theta}} = [\hat{A}~ \hat{B}~ \hat{C}]^{T}$ is
+\begin{align}\label{UF1}
+\hat{\mathbf{\theta}} &= (\mathbf{H}^{T}\mathbf{H})^{-1}\mathbf{H}^{T}\mathbf{y}.
+\end{align}
+\end{itemize}
+\end{frame}
+
+\subsection{Four Parameter Model}
+\begin{frame}{Four Parameter Model}
+\begin{itemize}
+  \item ${s[n,\mathbf{\theta}]}$ is nonlinear in parameters $\mathbf{\theta}$.
+  \item  Assuming $\hat{\omega}_{i}$ is an estimate in iteration $i$ of ${\omega}$, a Taylor approx. around $\hat{\omega}_{i}$ gives
+\begin{align}\label{APU1}
+\cos(\omega n)&\approx \cos(\hat{\omega}_{i} n)-n\cos(\hat{\omega}_{i} n)\cdot\Delta\omega_{i}\\
+\sin(\omega n)&\approx \sin(\hat{\omega}_{i} n)+n\cos(\hat{\omega}_{i} n)\cdot\Delta\omega_{i}.
+\end{align}
+This gives
+\begin{align}\label{APU2}
+s[n,\mathbf{\theta}]&=A\cos(\hat{\omega}_{i}n)+B\sin(\hat{\omega}_{i} n)+C-An\Delta\hat{\omega}_{i}\sin(\hat{\omega}_{i} n)+Bn\Delta\hat{\omega}_{i}\cos(\hat{\omega}_{i} n)
+\end{align} where $\Delta\hat{\omega}_{i}=\omega-\hat{\omega}_{i}$.
+
+\item Using above approximations, we can write
+\begin{align}\label{APU4}
+\mathbf{s}&=\mathbf{H}_{i}\mathbf{\theta}_{i}\\
+J(\mathbf{\theta}) &= (\mathbf{y}-\mathbf{H_{i}\theta_{i}})^{T}(\mathbf{y}-\mathbf{H_{i}\theta_{i}}).
+\end{align}where $\mathbf{\theta}_{i}=[A~~B~~C~~\Delta\hat{\omega}_{i}]^T$ and
+\begin{align}\nonumber
+\footnotesize{\mathbf{H}_{i}=\left[
+\begin{array}{cccc}
+    \hspace{-.2cm}   1  &\hspace{-.2cm} 0 & \hspace{-.2cm} 1 &  0\\
+    \hspace{-.2cm}\cos(\omega_{i}) &\hspace{-.2cm} \sin(\omega_{i}) & \hspace{-.2cm} 1 & \hspace{-.2cm}-A_{i-1}\sin(\omega_{i})+B_{i-1}\cos(\omega_{i})\hspace{-.2cm} \\
+    \hspace{-.2cm}\vdots              &\hspace{-.2cm} \vdots              & \hspace{-.2cm} \vdots  & \hspace{-.3cm}\hspace{-.2cm}\vdots\\
+    \hspace{-.2cm}\cos(\omega_{i}{(N-1)}) &\hspace{-.2cm} \sin(\omega_{i}{(N-1)}) & \hspace{-.2cm} 1 & \hspace{-.2cm}-A_{i-1}{(N-1)}\sin(\omega_{i}{(N-1)})+B_{i-1}{(N-1)}\cos(\omega_{i}{(N-1))}\nonumber \hspace{-.2cm}
+  \end{array}
+\right].}
+\end{align}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Four Parameter Model}
+\begin{itemize}
+ % \item 1057-1994 IEEE Standard for Digitizing Waveform Recorders. \vspace{3mm}
+  \item \textbf{Algorithm I} [IEEE Std 1057-1994 (R2001)]\vspace{3mm}
+\begin{algorithmic}[1]
+\State Set index $i=0$
+\State \textbf{Initialize}: ${ \hat{\omega}}_{0}, \hat{\theta}_{0}=[A_{0} ~B_{0},C_{0}, ~0]^{T}$
+\Repeat
+\State $i\gets i+1$
+\State $\hat{\omega}_{i}\gets \hat{\omega}_{i-1}+\Delta\hat{\omega}_{i-1}$
+\State Create $\mathbf{H}_{i}$ %using~\ref{Hi}
+\State $\hat{\theta}_{i} \gets (\mathbf{H}_{i}^T\mathbf{H}_{i})^{-1}\mathbf{H}_{i}^{T}\mathbf{y}$
+\Until{convergence}\vspace{3mm}
+\end{algorithmic}
+\item The algorithm iteratively minimize $J$ in order to obtain a new set of estimates of unknown parameters.\vspace{3mm}
+\item In each iteration, an updated frequency estimate $\hat{\omega}_{i}$ is obtained based on $\hat{\omega}_{i-1}$ and  $\Delta\hat{\omega}_{i-1}$,  andestimates that also depend on estimated values of A, B, and C.
+\end{itemize}
+\end{frame}
+
+% Simulation results
+\section{Simulation Results}
+\begin{frame}{Simulation Results}
+\begin{itemize}
+  \item The performance of parameter estimations are evaluated by the Monte-Carlo simulations using the empirical mean-squared error criteria,
+  \begin{align}
+  \small EMSE &=\frac{1}{M}\sum_{m=0}^{M-1} ( \hat{L}_{m}-\mathrm{E} ( \hat{L}_{m}) )
+  \end{align} where M is number of independent realization. \vspace{3mm}
+  \item In experiment,
+   \begin{align}
+   M&= 2000\\
+   10 \leq N \leq10000\\
+   L&\ll(A^2+B^2)\\
+   SNR&\gg 20~dB
+   \end{align} \vspace{3mm}
+  \item An initial estimate of the angular frequency is obtained by using number of sample (N) and an initial guess of sampling frequency (k$\pi$); in experiment k=1000.% for example, counting zero crossings.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Signal-to-noise ratio}
+\small{\begin{itemize}
+  \item By increasing SNR, difference between the EMSE and the CRLB decreases.
+  \item By increasing the number of samples, difference between the EMSE and the CRLB further decreased.
+\end{itemize}}
+\begin{figure}[!t]
+    \psfrag{b}[c][c][0.7][0]{Logarithmic Scale (in dB)}
+    \psfrag{a}[c][c][0.7][0]{SNR (in dB)}
+    \centerline{\psfig{figure=CRLB_&_EMSE_vs_SNR_for_different_N,width=6cm, height=6cm}}
+    \caption{The CRLB and the EMSE as the function of SNR.}
+	\label{fig:SNR_plot}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}{Leakage parameter}
+\small{\begin{itemize}
+  \item Reducing noise level by decreasing L, increases the difference between the EMSE and the CRLB.
+  \item By increasing the number of samples, difference between the EMSE and the CRLB decreases.
+\end{itemize}}
+
+\begin{figure}[!t]
+    \psfrag{b}[c][c][0.7][0]{Logarithmic Scale (in dB)}
+    \psfrag{a}[c][c][0.7][0]{L (in dB)}
+    \centerline{\psfig{figure=CRLB_&_EMSE_vs_L_for_different_N,width=6cm, height=6cm}}
+    \caption{The CRLB and the EMSE as the function of L.}
+	\label{fig:L_plot}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Number of samples}
+\small{\begin{itemize}
+  \item Results indicates that the estimator is asymptotically efficient after N > 3000.
+\end{itemize}}
+\begin{figure}[!t]
+    \psfrag{b}[c][c][0.7][0]{Logarithmic Scale (in dB)}
+    \psfrag{a}[c][c][0.7][0]{N}
+    \centerline{\psfig{figure=CRLB_&_EMSE_vs_N.eps,width=6cm, height=6cm}}
+    \caption{The CRLB and the EMSE as the function of N.}
+\label{fig:N_plot}
+\end{figure}
+\end{frame}
+%Conclusion
+\section{}
+\begin{frame}{Conclusion}
+\begin{itemize}
+  \item The experimental studies revealed that MLE is an asymptotically optimal estimator for the considered signal model.\vspace{3mm}
+  \item The difference between estimated values of parameters from both the three and four parameter model are negligible as suggested by the theory.\vspace{3mm}
+  \item The convergence properties of estimation depend on the initial estimates.
+\end{itemize}
+\end{frame}
+
+\end{document}
+%\section{Simulation Results}
+
+%\begin{frame}{Simulation Results}
+%\begin{itemize}
+%  \item The performance of parameter estimations are evaluated by the Monte-Carlo simulations using the empirical mean-squared error criteria,
+%  \begin{align}
+%  \small EMSE &=\frac{1}{M}\sum_{m=0}^{M-1} ( \hat{L}_{m}-\mathrm{E} ( \hat{L}_{m}) )
+%    \end{align}where M is number of independent realization. In experiment, M $= 2000$ with $L\ll(A^2+B^2)$ and $SNR \gg 20$ dB.\vspace{-3mm}
+%\end{itemize}
+%\begin{figure}[!t]
+%    %\centering
+%    \raggedright
+%    \psfrag{b}[c][c][0.5][0]{Logarithmic Scale (in dB)}
+%    \psfrag{a}[c][c][0.5][0]{SNR (in dB)}
+%    \subfloat[Signal-to-noise ratio]{\label{fig:snr}{\psfig{figure=CRLB_&_EMSE_vs_SNR_for_different_N,width=4cm, height=4cm}}}
+%    \psfrag{a}[c][c][0.5][0]{N}
+%    \subfloat[Number of  samples]{\label{fig:sn}{\psfig{figure=CRLB_&_EMSE_vs_N.eps,width=4cm, height=4cm}}}
+%    \psfrag{a}[c][c][0.5][0]{L (in dB)}
+%    \subfloat[Leakage parameter]{\label{fig:lp}{\psfig{figure=CRLB_&_EMSE_vs_L_for_different_N,width=4cm, height=4cm}}}
+%    \caption{Simulation Results}
+%\end{figure}
+%\end{frame}
+
+
+%\subsection{Known Frequency}
+%\begin{frame}{Three Parameter Model}
+%\begin{itemize}
+%  \item For three parameter model $\theta = [A~ B~ C]^T$,  the corresponding Fisher matrix is given by the the upper left $3\times3$ submatrix of $\frac{1}{2\sigma^2}\mathbf{I}_{1}$, which is a diagonal matrix for large N.
+%  \item The inverse of the submatrix and the diagonal elements of the inverse gives the lower bound on the variance of the estimates,
+%  \begin{align}
+%    var(\hat{A}) &\geq CRB(A)\approx \frac{2\sigma^2}{N}\\
+%    var(\hat{B}) &\geq CRB(B)\approx \frac{2\sigma^2}{N}\\
+%    var(\hat{C}) &\geq CRB(C)\approx \frac{\sigma^2}{N}
+%\end{align}
+%\end{itemize}
+%\end{frame}
+% %\begin{itemize}
+%    \item For large N (as $N\rightarrow~\infty$), we can write the matrix $\mathbf{I(\theta)}$ as
+%         \begin{align}
+%            \mathbf{I(\theta)}&=\frac{1}{2\sigma^2}(\mathbf{I}_{1}+\mathbf{I}_{2}),
+%        \end{align}
+%        where
+%        \small{\begin{align}
+%            \mathbf{I}_{1}&=\left[
+%            \begin{array}{cccc}
+%            N & 0 & 0 & \frac{BN^2}{2} \\
+%            0 & N & 0 & -\frac{AN^2}{2} \\
+%            0 & 0 & 2N & 0 \\
+%            \frac{BN^2}{2} & -\frac{AN^2}{2} & 0 & \frac{(A^2+B^2)N^3}{3}
+%            \end{array}
+%            \right]
+%            \end{align}} and
+%        \small{\begin{align}
+%\mathbf{I}_{2}&=\left[
+%  \begin{array}{cccc}
+%    \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(N) \\
+%    \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(N) \\
+%    \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(1) & \mathcal{O}(N) \\
+%    \mathcal{O}(N) & \mathcal{O}(N) & \mathcal{O}(N) & \mathcal{O}(N^2)
+%  \end{array}
+%\right],
+%\end{align}}
+%where  $\mathcal{O}(1)$ and $\mathcal{O}(N)$ represents a bounded quantity and a quantity that is asymptotically linear in $N$, respectively.
+%   \item The asymptotic expression CRLB is given by,% as described in Appendix B of~\cite{3},
+%    \begin{align}\label{CRB1}
+%        CRLB(\mathbf{\theta})&=\mathbf{I}(\mathbf{\theta})^{-1}=2\sigma^{2}(\mathbf{I}_{1}+\mathbf{I}_{2})^{-1}\approx 2\sigma^{2}\mathbf{I}_{1}^{-1},
+%    \end{align}
+%     \end{itemize}
+%
+%
+%\subsection{Unknown Frequency}
+%\begin{frame}{Four Parameter Model}
+%\begin{itemize}
+%  \item For four parameter model $\theta=[A~B~C~\omega]^{T}$, the inverse of the Fisher matrix is
+%\begin{eqnarray}
+%\mathbf{I}_{1}^{-1}=\left[\
+%  \begin{array}{cccc}
+%     \frac{1}{N}(1+\frac{3B^2}{\alpha^2}) & -\frac{3AB}{\alpha^2 N}               & 0            &  \frac{6B}{\alpha^2 N^2} \\
+%    -\frac{3AB}{\alpha^2 N}               &  \frac{1}{N}(1+\frac{3A^2}{\alpha^2}) & 0            & -\frac{6A}{\alpha^2 N^2} \\
+%     0                                    &  0                                    & \frac{1}{2N} &  0 \\
+%    \frac{6B}{\alpha^2 N^2}               & -\frac{6A}{\alpha^2 N^2}              & 0            &  \frac{12 }{\alpha^2 N^3}\\
+%  \end{array}
+%\right]
+%\end{eqnarray}
+%  \item The CRLB on the parameters are
+%  \begin{align}
+%    var(\hat{A})      &\geq CRB(A)     \approx  \frac{2\sigma^{2}}{N}(1+\frac{3B^2}{\alpha^2})\\
+%    var(\hat{B})      &\geq CRB(B)     \approx  \frac{2\sigma^{2}}{N}(1+\frac{3A^2}{\alpha^2})\\
+%    var(\hat{C})      &\geq CRB(C)     \approx  \frac{\sigma^2}{N}\\
+%    var(\hat{\omega}) &\geq CRB(\omega)\approx  \frac{24\sigma^2}{\alpha^2N^3}
+%    \end{align}
+%\end{itemize}
+%\end{frame}
+%
+
+%\subsection{Cramer-Rao Bound for Different Parameter Model}
+%\begin{frame}{Cramer-Rao bound}
+%\begin{itemize}
+%  \item The CRLB for the three parameter model (known frequency):
+%    \begin{align}
+%    var(\hat{A}) &\geq CRB(A)\approx \frac{2\sigma^2}{N}\\
+%    var(\hat{B}) &\geq CRB(B)\approx \frac{2\sigma^2}{N}\\
+%    var(\hat{C}) &\geq CRB(C)\approx \frac{\sigma^2}{N}
+%    \end{align}
+%  \item The CRLB for the four parameter model (unknown frequency):
+%  \begin{align}
+%    var(\hat{A})      &\geq CRB(A)     \approx  \frac{2\sigma^{2}}{N}(1+\frac{3B^2}{\alpha^2})\\
+%    var(\hat{B})      &\geq CRB(B)     \approx  \frac{2\sigma^{2}}{N}(1+\frac{3A^2}{\alpha^2})\\
+%    var(\hat{C})      &\geq CRB(C)     \approx  \frac{\sigma^2}{N}\\
+%    var(\hat{\omega}) &\geq CRB(\omega)\approx  \frac{24\sigma^2}{\alpha^2N^3}
+%    \end{align}
+%\end{itemize}
+%\end{frame}
+
+%\subsection{Cramer-Rao Bound on Leakage Parameter}
+%\begin{frame}{CRLB on L}
+%\begin{itemize}
+%  \item The CRLB of L, by using the transformation of parameters,
+%    \begin{align}
+%    CRB(L)&=\left[\frac{\partial L}{\partial \mathbf{\theta}}\right] CRB(\mathbf{\theta})\left[\frac{\partial L}{\partial \mathbf{\theta}}\right]^{T}
+%    \end{align}where
+%    \begin{align}
+%    \left[\frac{\partial L}{\partial \mathbf{\theta}}\right]& =\left[-\frac{4AC^2}{\alpha^{4}}~~-\frac{4BC^2}{\alpha^{4}} ~~\frac{4C}{\alpha^{2}} ~~0\right]
+%    \end{align}
+%    Therefore \begin{align}
+%    var(L)& = CRB(L) = {2\sigma^2}\left(\frac{16C^4}{\alpha^{6}N}+\frac{8C^2}{\alpha^{4}N}\right)
+%    \end{align}
+%  \item [NOTE:] CRB(L) obtained by using the three parameter model and by using the four parameter model are same because L is independent of frequency.
+%  %\item The $L=\frac{2C^2}{\alpha^{2}}$ is non-linear, therefore the estimator $\hat{L}$ is asymptotically efficient as $N\rightarrow\infty$.
+%\end{itemize}
+%\end{frame}
+
+%\subsection{Simulation Results}
+%\begin{frame}{Monte Carlo simulations}
+%\begin{itemize}
+%  \item The performance of parameter estimations are evaluated by the Monte-Carlo simulations using the empirical mean-squared error criteria,
+%  \begin{align}
+%  EMSE &=\frac{1}{M}\sum_{m=0}^{M-1} ( \hat{L}_{m}-\mathrm{E} ( \hat{L}_{m}) )
+%    \end{align}where M is number of independent realization.
+%  \item Experimental conditions:
+%        \begin{align}
+%        M&=2000\\
+%        L&\ll(A^2+B^2)\\
+%        SNR&\gg 20~dB
+%         \end{align}
+%\end{itemize}
+%\end{frame}
+%
+%\subsection{Simulation Results}
+%\begin{frame}{Simulation Results}
+%\begin{figure}[!t]
+%    %\centering
+%    \raggedright
+%    \psfrag{b}[c][c][0.5][0]{Logarithmic Scale (in dB)}
+%    \psfrag{a}[c][c][0.5][0]{SNR (in dB)}
+%    \subfloat[Signal-to-noise ratio]{\label{fig:gull}{\psfig{figure=CRLB_&_EMSE_vs_SNR_for_different_N,width=4cm, height=4cm}}}
+%    \psfrag{b}[c][c][0.5][0]{Logarithmic Scale (in dB)}
+%    \psfrag{a}[c][c][0.5][0]{N}
+%    \subfloat[Number of  samples]{\label{fig:tiger}{\psfig{figure=CRLB_&_EMSE_vs_N.eps,width=4cm, height=4cm}}}
+%    \psfrag{b}[c][c][0.5][0]{Logarithmic Scale (in dB)}
+%    \psfrag{a}[c][c][0.5][0]{L (in dB)}
+%    \subfloat[Leakage parameter]{\label{fig:mouse}{\psfig{figure=CRLB_&_EMSE_vs_L_for_different_N,width=4cm, height=4cm}}}
+%	%\vspace{-0.5cm}
+%    \caption{Simulation Results}
+%\end{figure}
+%\end{frame}
+%
+%\subsection{Simulation Results}
+
+%\subsection{Leakage parameter}
+%\begin{frame}{Leakage parameter}
+%\begin{figure}[!t]
+%    \psfrag{b}[c][c][0.7][0]{Logarithmic Scale (in dB)}
+%    \psfrag{a}[c][c][0.7][0]{L (in dB)}
+%    \vspace{-0.6cm}
+%    \centerline{\psfig{figure=CRLB_&_EMSE_vs_L_for_different_N,width=6cm, height=6cm}}
+%	\vspace{-0.5cm}
+%    \caption{The CRLB and the EMSE as the function of L.}
+%	\label{fig:L_plot}
+%\end{figure}
+%\end{frame}
+%
+%\subsection{Signal-to-noise ratio}
+%\begin{frame}{Signal-to-noise ratio}
+%\begin{figure}[!t]
+%    \psfrag{b}[c][c][0.7][0]{Logarithmic Scale (in dB)}
+%    \psfrag{a}[c][c][0.7][0]{SNR (in dB)}
+%    \vspace{-0.6cm}
+%    \centerline{\psfig{figure=CRLB_&_EMSE_vs_SNR_for_different_N,width=6cm, height=6cm}}
+%	\vspace{-0.5cm}
+%    \caption{The CRLB and the EMSE as the function of SNR.}
+%	\label{fig:SNR_plot}
+%\end{figure}
+%\end{frame}
+%
+%\subsection{Number of  samples}
+%\begin{frame}{Number of samples}
+%\begin{figure}[!t]
+%    \psfrag{b}[c][c][0.7][0]{Logarithmic Scale (in dB)}
+%    \psfrag{a}[c][c][0.7][0]{N}
+%    \vspace{-0.4cm}
+%    \centerline{\psfig{figure=CRLB_&_EMSE_vs_N.eps,width=6cm, height=6cm}}
+%	\vspace{-0.5cm}
+%    \caption{The CRLB and the EMSE as the function of N.}
+%	\vspace{-0.3cm}
+%\label{fig:N_plot}
+%\end{figure}
+%\end{frame}
+%\section{}
+%\begin{frame}{References}
+%\begin{itemize}
+%  \item[1] \emph{IEEE Standard for digitizing waveform recorders}, IEEE Standard 1057, 1994.\vspace{3mm}
+%  \item[2] S. M. Kay, \emph{Fundamentals of Statistical Signal Processing: Estimation Theory}, Prentice Hall, Upper Saddle River, New Jersey 07458, 1993.\vspace{3mm}
+%  \item[3] A. Nehorai and B. Porat, ``Adaptive comb filtering for harmonic signal enhancement", \emph{Trans. on Acoustics, Speech and Signal Processing}, 34(5) 1124–1138, Oct 1986.
+%\end{itemize}
+%\end{frame}
+
+
