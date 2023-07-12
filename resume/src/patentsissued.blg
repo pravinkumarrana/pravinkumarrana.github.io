@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: patentsissued.aux
+The style file: ieeetr.bst
+Database file #1: patentsissued.bib
+Warning--empty booktitle in Pravin:19M606:P219US
+Warning--empty booktitle in Pravin:P135US2
+Warning--empty booktitle in Pravin:19M192
+Warning--empty booktitle in Pravin:2023P1
+Warning--empty booktitle in Pravin:2022P4
+Warning--empty booktitle in Pravin:2022P3
+Warning--empty booktitle in Pravin:2022P2
+Warning--empty booktitle in Pravin:2022P1
+Warning--empty booktitle in Pravin:2021P1
+Warning--empty booktitle in Pravin:2020P2
+Warning--empty booktitle in Pravin:2020P1
+Warning--empty booktitle in Pravin:2019P4
+Warning--empty booktitle in Pravin:2019P3
+Warning--empty booktitle in Pravin:2019P2
+Warning--empty booktitle in Pravin:2019P1
+Warning--empty booktitle in Pravin:2016P2
+Warning--empty booktitle in Pravin:2016P1
+You've used 17 entries,
+            1876 wiz_defined-function locations,
+            557 strings with 6100 characters,
+and the built_in function-call counts, 3218 in all, are:
+= -- 186
+> -- 222
+< -- 0
++ -- 80
+- -- 63
+* -- 259
+:= -- 508
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 204
+empty$ -- 375
+format.name$ -- 63
+if$ -- 720
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 54
+num.names$ -- 17
+pop$ -- 153
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 17
+while$ -- 17
+width$ -- 19
+write$ -- 121
+(There were 17 warnings)

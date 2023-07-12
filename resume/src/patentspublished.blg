@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: patentspublished.aux
+The style file: ieeetr.bst
+Database file #1: patentspublished.bib
+Warning--empty booktitle in Pravin:19M192app
+Warning--empty booktitle in Pravin:2022P1Tobii-20M122
+Warning--empty booktitle in Pravin:2021P2Tobii-19M188
+Warning--empty booktitle in Pravin:2020P3
+Warning--empty booktitle in 21Q411-IlluminationAdjusterP234
+Warning--empty booktitle in 22Q223P244US
+Warning--empty booktitle in 22Q315:P249US
+Warning--empty booktitle in 22Q317P254US:ConvergenceConfidenceCone
+You've used 8 entries,
+            1876 wiz_defined-function locations,
+            517 strings with 5122 characters,
+and the built_in function-call counts, 1584 in all, are:
+= -- 88
+> -- 118
+< -- 0
++ -- 42
+- -- 34
+* -- 133
+:= -- 257
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 96
+empty$ -- 177
+format.name$ -- 34
+if$ -- 349
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 8
+newline$ -- 27
+num.names$ -- 8
+pop$ -- 72
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 9
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 8
+width$ -- 9
+write$ -- 58
+(There were 8 warnings)

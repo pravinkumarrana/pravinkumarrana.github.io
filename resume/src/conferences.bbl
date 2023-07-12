@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{Pravin:20143DTVCON}
+P.~K. Rana, J.~Taghia, and M.~Flierl, ``\textbf{Statistical methods for
+  inter-view depth enhancement},'' in {\em Proceedings of 3DTV Conference: In
+  Pursuit Of Next Generation 3D Display (3DTV-CON)}, Special Session on
+  Free-Viewpoint Television and Related Technologies, (Budapest, Hungary),
+  pp.~1--4, Jul. 2014.
+
+\bibitem{Pravin:2013ICASSP}
+P.~K. Rana, Z.~Ma, J.~Taghia, and M.~Flierl, ``\textbf{Multiview depth map
+  enhancement by variational {B}ayes inference estimation of {D}irichlet
+  mixture models},'' in {\em Proceedings of IEEE International Conference on
+  Acoustics, Speech, and Signal Processing (ICASSP)}, (Vancouver, Canada),
+  pp.~1528--1532, May 2013.
+
+\bibitem{Pravin:2012ISM}
+P.~K. Rana, J.~Taghia, and M.~Flierl, ``\textbf{A variational {B}ayesian
+  inference framework for multiview depth image enhancement},'' in {\em
+  Proceedings of IEEE International Symposium on Multimedia (ISM)}, (Irvine,
+  California, USA), pp.~183--190, Dec. 2012.
+
+\bibitem{Parthasarathy:20123DTVCON}
+S.~Parthasarathy, A.~Chopra, E.~Baudin, P.~K. Rana, and M.~Flierl,
+  ``\textbf{Denoising of volumetric depth confidence for view rendering},'' in
+  {\em Proceedings of 3DTV Conference: The True Vision - Capture, Transmission
+  and Display of 3D Video (3DTV-CON)}, (Zurich, Switzerland), pp.~1--4, Oct.
+  2012.
+
+\bibitem{Pravin:2012}
+P.~K. Rana and M.~Flierl, ``\textbf{Depth pixel clustering for consistency
+  testing of multiview depth},'' in {\em Proceedings of European Signal
+  Processing Conference (EUSIPCO)}, (Bucharest, Romania), pp.~1119--1123, Aug.
+  2012.
+
+\bibitem{Pravin:2011}
+P.~K. Rana and M.~Flierl, ``\textbf{View interpolation with structured depth
+  from multiview video},'' in {\em Proceedings of European Signal Processing
+  Conference (EUSIPCO)}, (Barcelona, Spain), pp.~383--387, Aug. 2011.
+
+\bibitem{Pravin:2010}
+P.~K. Rana and M.~Flierl, ``\textbf{Depth consistency testing for improved view
+  interpolation},'' in {\em Proceedings of IEEE SPS International Workshop on
+  Multimedia Signal Processing (MMSP)}, (Saint Malo, France), pp.~384--389,
+  Oct. 2010.
+
+\end{thebibliography}
