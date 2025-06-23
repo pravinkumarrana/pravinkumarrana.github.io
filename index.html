@@ -21,7 +21,12 @@
 <style>
 	.background_image{ position: relative;}
 	.overlay_image{position: absolute; bottom:5px; left:20px;}
-	.about-image-container {
+	 /* About Me specific - using float for image as requested */
+        .about-me-content {
+            /* This div will contain both floating image and text */
+            overflow: hidden; /* Clears floats within this container */
+        }
+        .about-image-container {
             position: relative;
             float: right; /* Float the image to the right */
             margin-left: 20px; /* Space between image and text */
@@ -36,23 +41,27 @@
             padding: 5px 10px; /* Padding for the image as per user's snippet */
             /* Removed img-rounded, img-responsive, alignleft as they are Bootstrap classes or covered by other styles */
         }
-	.linkedin-overlay {
-	    position: absolute;
-	    bottom: 10px;
-	    left: 10px;
-	    width: 40px;
-	    height: 40px;
-	    border-radius: 50%;
-	    background-color: rgba(255,255,255,0.8);
-	    display: flex;
-	    justify-content: center;
-	    align-items: center;
-	}
-	.linkedin-overlay img {
-	    width: 70%;
-	    height: 70%;
-	    object-fit: contain;
-	}
+        .linkedin-overlay {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255,255,255,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .linkedin-overlay img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+        }
+        /* Ensure paragraphs after the image also respect the float */
+        .about-me-content p {
+            text-align: justify; /* Maintain justified text alignment */
+        }
 </style>
 </head>
 
