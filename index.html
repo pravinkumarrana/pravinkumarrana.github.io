@@ -21,6 +21,21 @@
 <style>
 	.background_image{ position: relative;}
 	.overlay_image{position: absolute; bottom:5px; left:20px;}
+	.about-image-container {
+            position: relative;
+            float: right; /* Float the image to the right */
+            margin-left: 20px; /* Space between image and text */
+            margin-bottom: 10px; /* Space below image if text wraps around */
+        }
+        .about-image {
+            width: 250px; /* Fixed width for desktop as per previous conversation */
+            height: 250px; /* Fixed height for desktop as per previous conversation */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px var(--shadow-medium);
+            object-fit: cover; /* Ensures image covers area without distortion */
+            padding: 5px 10px; /* Padding for the image as per user's snippet */
+            /* Removed img-rounded, img-responsive, alignleft as they are Bootstrap classes or covered by other styles */
+        }
 	.linkedin-overlay {
 	    position: absolute;
 	    bottom: 10px;
