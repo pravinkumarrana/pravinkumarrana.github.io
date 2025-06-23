@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     /* Margin bottom by footer height */
     margin-bottom: 40px;
+    font-family: 'Inter', sans-serif; /* Applied Inter as the primary font */
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -34,18 +39,18 @@ img {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif; /* Changed to Inter */
     font-weight: 400;
 }
 
 .container {
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Inter', sans-serif; /* Changed to Inter */
     font-size: 1.0em;
     line-height: 1.6em;
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{ 
-    font-family: 'Gentium Book Basic', serif;
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: 'Inter', sans-serif; /* Changed to Inter */
 }
 
 .project-thumbnail {
@@ -59,7 +64,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .blog-index {
-    font-family: 'Inconsolata';
+    font-family: 'Inconsolata', monospace; /* Kept Inconsolata as it's a specific coding font, added monospace fallback */
 }
 
 .pager {
@@ -97,7 +102,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     left: 0;
     position: absolute;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif; /* Changed to Inter */
     text-align: center;
     font-size: 80%;
     font-weight: bold;
@@ -112,11 +117,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .thumbnail img:hover {
-  -webkit-filter: brightness(1.1);
-  -moz-filter: brightness(1.1);
-  -o-filter: brightness(1.1);
-  -ms-filter: brightness(1.1);
-  filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+    -moz-filter: brightness(1.1);
+    -o-filter: brightness(1.1);
+    -ms-filter: brightness(1.1);
+    filter: brightness(1.1);
 }
 
 div.thumbnail {
