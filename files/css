@@ -178,7 +178,6 @@ body {
   background-color: yellow;
   border-bottom: 1px solid black;
   text-align: left;
-  /* You can also explicitly set Inter here if needed, but body will cover it */
   font-family: 'Inter', sans-serif;
 }
 
@@ -186,11 +185,11 @@ body {
   margin-top: 8.5px;
   margin-left: 5px;
   display: inline;
+  /* Added shadow effect */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Horizontal offset, Vertical offset, Blur radius, Color (with transparency) */
 }
 
 .res span {
   display: block;
-  /* Explicitly set Inter for span if you want to override a parent,
-     otherwise, it will inherit from .res or body */
   font-family: 'Inter', sans-serif;
 }
