@@ -24,7 +24,37 @@
 		<link rel="stylesheet" type="text/css" href="./files/main.css">
 		<script type="text/javascript" async="" defer="" src="./files/piwik.js"></script><script src="./files/jquery.min.js"></script><style type="text/css"></style>
 		<script src="./files/bootstrap.min.js"></script>
-	</head>
+	
+		<!-- NEW: Custom CSS for card effects and responsive container -->
+	    <style>
+	        body {
+	            font-family: 'Inter', sans-serif;
+	            color: #1f2937;
+	            background-color: #f3f4f6;
+	        }
+	        .project-card {
+	            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+	            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+	        }
+	        .project-card:hover {
+	            transform: translateY(-5px);
+	            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+	        }
+	        .container {
+	            max-width: 1280px; /* Equivalent to max-w-7xl */
+	            margin-left: auto;
+	            margin-right: auto;
+	            padding-left: 1rem;
+	            padding-right: 1rem;
+	        }
+	        @media (min-width: 768px) {
+	            .container {
+	                padding-left: 2rem;
+	                padding-right: 2rem;
+	            }
+	        }
+	    </style>
+</head>
 
 <body>
     <div class="navbar navbar-default navbar-static-top" role="navigation">
@@ -52,169 +82,176 @@
     </div>
     
     <!-- Main Content -->
-    <!-- Main Content -->
-    <div class="container mx-auto p-8">
-        <div class="mb-10">
-            <h1 class="text-3xl font-bold mb-2">Projects.</h1>
-            <p class="text-lg text-gray-600">A list of projects on which I have contributed as a researcher and as a professional team member.</p>
-        </div>
-
+   
+    <main class="container py-12">
+        <header class="mb-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-2">Projects.</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">A list of projects on which I have contributed as a researcher and as a professional team member.</p>
+        </header>
+        
         <!-- Tobii AB Section -->
-        <h2 class="text-2xl font-semibold mt-8 mb-4">Tobii AB, Stockholm, Sweden</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Project Card: Tobii XR Eye Tracking Platform -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/818CF8/FFFFFF?text=Tobii%20XR%20Platform" alt="An XR headset with Tobii's eye tracking logo">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://dl.acm.org/doi/10.1145/3588037.3595389" class="hover:underline">Tobii XR Eye Tracking Platform</a></h3>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Tobii AB, Stockholm, Sweden</h2>
+            <!-- UPDATED: Grid layout with gap class to control spacing -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project Card: Tobii XR Eye Tracking Platform -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/818CF8/FFFFFF?text=Tobii%20XR%20Platform" alt="An XR headset with Tobii's eye tracking logo">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://dl.acm.org/doi/10.1145/3588037.3595389" class="hover:underline text-gray-900">Tobii XR Eye Tracking Platform</a></h3>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Project Card: Sony PlayStation VR2 -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Sony%20PSVR2" alt="A closeup of the Sony PlayStation VR2 headset">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.playstation.com/en-se/ps-vr2/" class="hover:underline">Sony PlayStation VR2</a></h3>
+                
+                <!-- Project Card: Sony PlayStation VR2 -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Sony%20PSVR2" alt="A closeup of the Sony PlayStation VR2 headset">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.playstation.com/en-se/ps-vr2/" class="hover:underline text-gray-900">Sony PlayStation VR2</a></h3>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project Card: HP Reverb G2 Omnicept Edition VR -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/059669/FFFFFF?text=HP%20Reverb%20G2" alt="A shot of the HP Reverb G2 Omnicept Edition VR headset">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://press.hp.com/us/en/press-releases/2020/new-era-vr-developers-enterprises.html" class="hover:underline">HP Reverb G2 Omnicept Edition VR</a></h3>
+                <!-- Project Card: HP Reverb G2 Omnicept Edition VR -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/059669/FFFFFF?text=HP%20Reverb%20G2" alt="A shot of the HP Reverb G2 Omnicept Edition VR headset">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://press.hp.com/us/en/press-releases/2020/new-era-vr-developers-enterprises.html" class="hover:underline text-gray-900">HP Reverb G2 Omnicept Edition VR</a></h3>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project Card: Qualcomm Snapdragon XR2 5G Platform -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/7E22CE/FFFFFF?text=Qualcomm%20XR2" alt="The Qualcomm Snapdragon XR logo">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.qualcomm.com/news/releases/2020/02/25/qualcomm-accelerates-xr-headset-development-new-qualcomm-snapdragon-xr2-5g" class="hover:underline">Qualcomm Snapdragon XR2 5G Platform</a></h3>
+                <!-- Project Card: Qualcomm Snapdragon XR2 5G Platform -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/7E22CE/FFFFFF?text=Qualcomm%20XR2" alt="The Qualcomm Snapdragon XR logo">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.qualcomm.com/news/releases/2020/02/25/qualcomm-accelerates-xr-headset-development-new-qualcomm-snapdragon-xr2-5g" class="hover:underline text-gray-900">Qualcomm Snapdragon XR2 5G Platform</a></h3>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Project Card: Pico Neo 3 Pro Eye -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/CA8A04/FFFFFF?text=Pico%20Neo%203%20Pro" alt="A close up of the Pico Neo 3 Pro Eye headset">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/products/integration/xr-headsets/device-integrations/pico-neo-3-pro-eye" class="hover:underline">Pico Neo 3 Pro Eye</a></h3>
+                
+                <!-- Project Card: Pico Neo 3 Pro Eye -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/CA8A04/FFFFFF?text=Pico%20Neo%203%20Pro" alt="A close up of the Pico Neo 3 Pro Eye headset">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/products/integration/xr-headsets/device-integrations/pico-neo-3-pro-eye" class="hover:underline text-gray-900">Pico Neo 3 Pro Eye</a></h3>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Project Card: Pico Neo 2 Eye -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/BE123C/FFFFFF?text=Pico%20Neo%202" alt="A Pico Neo 2 headset">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/products/integration/xr-headsets/device-integrations/pico-neo-2-eye" class="hover:underline">Pico Neo 2 Eye</a></h3>
+                
+                <!-- Project Card: Pico Neo 2 Eye -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/BE123C/FFFFFF?text=Pico%20Neo%202" alt="A Pico Neo 2 headset">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/products/integration/xr-headsets/device-integrations/pico-neo-2-eye" class="hover:underline text-gray-900">Pico Neo 2 Eye</a></h3>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project Card: Qualcomm Snapdragon XR1 Platform -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/155306/FFFFFF?text=Qualcomm%20XR1" alt="A Qualcomm Snapdragon XR1 chip">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.qualcomm.com/news/releases/2019/05/29/introducing-qualcomm-snapdragon-smart-viewer-reference-design" class="hover:underline">Qualcomm Snapdragon XR1 Platform</a></h3>
+                <!-- Project Card: Qualcomm Snapdragon XR1 Platform -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/155306/FFFFFF?text=Qualcomm%20XR1" alt="A Qualcomm Snapdragon XR1 chip">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.qualcomm.com/news/releases/2019/05/29/introducing-qualcomm-snapdragon-smart-viewer-reference-design" class="hover:underline text-gray-900">Qualcomm Snapdragon XR1 Platform</a></h3>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project Card: HTC Vive Pro Eye -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/06B6D4/FFFFFF?text=HTC%20Vive%20Pro%20Eye" alt="The HTC Vive Pro Eye headset">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.vive.com/eu/pro-eye/" class="hover:underline">HTC Vive Pro Eye</a></h3>
+                <!-- Project Card: HTC Vive Pro Eye -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/06B6D4/FFFFFF?text=HTC%20Vive%20Pro%20Eye" alt="The HTC Vive Pro Eye headset">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.vive.com/eu/pro-eye/" class="hover:underline text-gray-900">HTC Vive Pro Eye</a></h3>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project Card: Qualcomm Snapdragon 845 VR Development Kit -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/003366/FFFFFF?text=Qualcomm%20845%20VR%20Kit" alt="A Qualcomm Snapdragon 845 VR development kit">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://developer.qualcomm.com/hardware/snapdragon-845-vr-development-kit" class="hover:underline">Qualcomm Snapdragon 845 VR Development Kit</a></h3>
+                <!-- Project Card: Qualcomm Snapdragon 845 VR Development Kit -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/003366/FFFFFF?text=Qualcomm%20845%20VR%20Kit" alt="A Qualcomm Snapdragon 845 VR development kit">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://developer.qualcomm.com/hardware/snapdragon-845-vr-development-kit" class="hover:underline text-gray-900">Qualcomm Snapdragon 845 VR Development Kit</a></h3>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project Card: StarVR One -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/A16207/FFFFFF?text=StarVR%20One" alt="A render of the StarVR One headset">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.starvr.com/products/" class="hover:underline">StarVR One</a></h3>
+                <!-- Project Card: StarVR One -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/A16207/FFFFFF?text=StarVR%20One" alt="A render of the StarVR One headset">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.starvr.com/products/" class="hover:underline text-gray-900">StarVR One</a></h3>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Project Card: Tobii VR Development Kit -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/DB2777/FFFFFF?text=Tobii%20VR%20Dev%20Kit" alt="An eye tracking development kit for virtual reality">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/group/news-media/press-releases/2017/5/tobii-releases-eye-tracking-vr-development-kit-for-htc-vive/" class="hover:underline">Tobii VR Development Kit</a></h3>
+                
+                <!-- Project Card: Tobii VR Development Kit -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/DB2777/FFFFFF?text=Tobii%20VR%20Dev%20Kit" alt="An eye tracking development kit for virtual reality">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/group/news-media/press-releases/2017/5/tobii-releases-eye-tracking-vr-development-kit-for-htc-vive/" class="hover:underline text-gray-900">Tobii VR Development Kit</a></h3>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Project Card: Tobii VR eye tracking platform -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/94A3B8/FFFFFF?text=Tobii%20VR%20Platform" alt="Tobii's eye tracking platform hardware">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://vr.tobii.com/tech-integration/" class="hover:underline">Tobii VR eye tracking platform</a></h3>
+                
+                <!-- Project Card: Tobii VR eye tracking platform -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/94A3B8/FFFFFF?text=Tobii%20VR%20Platform" alt="Tobii's eye tracking platform hardware">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://vr.tobii.com/tech-integration/" class="hover:underline text-gray-900">Tobii VR eye tracking platform</a></h3>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Project Card: Tobii IS4 eye tracking platform -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/1D4ED8/FFFFFF?text=Tobii%20IS4" alt="The Tobii IS4 eye tracking platform">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/tech/products/platforms/" class="hover:underline">Tobii IS4 eye tracking platform</a></h3>
+                <!-- Project Card: Tobii IS4 eye tracking platform -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/1D4ED8/FFFFFF?text=Tobii%20IS4" alt="The Tobii IS4 eye tracking platform">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/tech/products/platforms/" class="hover:underline text-gray-900">Tobii IS4 eye tracking platform</a></h3>
+                    </div>
                 </div>
-            </div>
 
-             <!-- Project Card: Tobii IS3 eye tracking platform -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/4CAF50/FFFFFF?text=Tobii%20IS3" alt="The Tobii IS3 eye tracking platform">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Tobii AB</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/tech/products/platforms/" class="hover:underline">Tobii IS3 eye tracking platform</a></h3>
+                <!-- Project Card: Tobii IS3 eye tracking platform -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/4CAF50/FFFFFF?text=Tobii%20IS3" alt="The Tobii IS3 eye tracking platform">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Tobii AB</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="https://www.tobii.com/tech/products/platforms/" class="hover:underline text-gray-900">Tobii IS3 eye tracking platform</a></h3>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- KTH Section -->
-        <h2 class="text-2xl font-semibold mt-12 mb-4">KTH Royal Institute of Technology, Stockholm, Sweden</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Project Card: 3D video coding -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/9333EA/FFFFFF?text=3D%20Video%20Coding" alt="A stylized image showing 3D video coding">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">KTH Royal Institute of Technology</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="http://researchprojects.kth.se/index.php/kb_1/io_10438/io.html?&show_details=1" class="hover:underline">3D video coding</a></h3>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">KTH Royal Institute of Technology, Stockholm, Sweden</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project Card: 3D video coding -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/9333EA/FFFFFF?text=3D%20Video%20Coding" alt="A stylized image showing 3D video coding">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">KTH Royal Institute of Technology</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="http://researchprojects.kth.se/index.php/kb_1/io_10438/io.html?&show_details=1" class="hover:underline text-gray-900">3D video coding</a></h3>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         
         <!-- IIT Section -->
-        <h2 class="text-2xl font-semibold mt-12 mb-4">Indian Institute of Technology, Kharagpur, India</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Project Card: Antarctic sea ice edge prediction -->
-            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-1">
-                <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/F59E0B/FFFFFF?text=Antarctic%20Sea%20Ice" alt="A satellite image of the Antarctic sea ice">
-                <div class="p-6">
-                    <p class="text-sm text-gray-500">Indian Institute of Technology, Kharagpur</p>
-                    <h3 class="text-xl font-bold mb-2"><a href="./publications/html/antarctic.html" class="hover:underline">Antarctic sea ice edge prediction</a></h3>
+        <section>
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Indian Institute of Technology, Kharagpur, India</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project Card: Antarctic sea ice edge prediction -->
+                <div class="project-card bg-white rounded-xl overflow-hidden">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/F59E0B/FFFFFF?text=Antarctic%20Sea%20Ice" alt="A satellite image of the Antarctic sea ice">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500">Indian Institute of Technology, Kharagpur</p>
+                        <h3 class="text-xl font-bold mb-2"><a href="./publications/html/antarctic.html" class="hover:underline text-gray-900">Antarctic sea ice edge prediction</a></h3>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     
     <!-- /container -->
     
