@@ -193,3 +193,9 @@ body {
   display: block;
   font-family: 'Inter', sans-serif;
 }
+
+.thumbnail {
+  border: 2px solid #ccc;   /* light gray border */
+  border-radius: 10px;      /* rounded corners */
+  padding: 10px;            /* space inside the border */
+}
