@@ -24,7 +24,25 @@
 		<link rel="stylesheet" type="text/css" href="./files/main.css">
 		<script type="text/javascript" async="" defer="" src="./files/piwik.js"></script><script src="./files/jquery.min.js"></script><style type="text/css"></style>
 		<script src="./files/bootstrap.min.js"></script>
-		
+
+		 <!-- Use Tailwind CSS for modern, responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f9;
+        }
+        /* Style for the card hover effect */
+        .tile-card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .tile-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
 	</head>
 
 <body>
@@ -86,6 +104,60 @@
         </ul>
     </div></div>
 
+	<div class="max-w-6xl mx-auto">
+        <!-- Section Title and Description -->
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800">Explore Our Tiles</h2>
+            <p class="mt-4 text-lg text-gray-600">
+                A simple and elegant way to display content in a card-like format.
+            </p>
+        </div>
+
+        <!-- The main grid container for the tiles -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Example Tile 1 -->
+            <div class="tile-card bg-white rounded-2xl shadow-lg overflow-hidden">
+                <!-- Image at the top -->
+                <img src="https://placehold.co/600x400/222/fff?text=Tile+1" alt="A placeholder image for the first tile" class="w-full h-48 object-cover">
+                
+                <!-- Text content below the image -->
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Tile Title One</h3>
+                    <p class="text-gray-600">
+                        This is a short description for the first tile. It can contain any text you want to display below the main title.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Example Tile 2 -->
+            <div class="tile-card bg-white rounded-2xl shadow-lg overflow-hidden">
+                <!-- Image at the top -->
+                <img src="https://placehold.co/600x400/60a5fa/fff?text=Tile+2" alt="A placeholder image for the second tile" class="w-full h-48 object-cover">
+                
+                <!-- Text content below the image -->
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Tile Title Two</h3>
+                    <p class="text-gray-600">
+                        This tile demonstrates a different image and a slightly longer description to show how the layout handles varying content.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Example Tile 3 -->
+            <div class="tile-card bg-white rounded-2xl shadow-lg overflow-hidden">
+                <!-- Image at the top -->
+                <img src="https://placehold.co/600x400/4ade80/000?text=Tile+3" alt="A placeholder image for the third tile" class="w-full h-48 object-cover">
+                
+                <!-- Text content below the image -->
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Tile Title Three</h3>
+                    <p class="text-gray-600">
+                        A final example showing a different color and font in the placeholder image.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 	
     <!-- /container -->
     
