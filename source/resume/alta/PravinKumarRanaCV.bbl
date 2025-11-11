@@ -1,0 +1,1577 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Pravin:2022P1Tobii-20M122}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=9c81830d6d5171d863a76eddb2ad7e16}{%
+           family={Wase},
+           familyi={W\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=080227b42be14e4c69914eb87809464d}{%
+           family={Ljungzell},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=87b9ff7a1e2526d7f6f290c7b9663889}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ca87e63d32b370ca30788dfb4625e022}{%
+           family={Giordano},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6ab53aee227a3af77f1d694d3b15c7d6}{%
+           family={Lundahl},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{aeabb86fbe5c75f61b2784199127b385}
+      \strng{fullhash}{aeabb86fbe5c75f61b2784199127b385}
+      \strng{fullhashraw}{aeabb86fbe5c75f61b2784199127b385}
+      \strng{bibnamehash}{aeabb86fbe5c75f61b2784199127b385}
+      \strng{authorbibnamehash}{aeabb86fbe5c75f61b2784199127b385}
+      \strng{authornamehash}{aeabb86fbe5c75f61b2784199127b385}
+      \strng{authorfullhash}{aeabb86fbe5c75f61b2784199127b385}
+      \strng{authorfullhashraw}{aeabb86fbe5c75f61b2784199127b385}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Eye tracking system}}
+      \field{year}{US Patent 12,374,071, Jul. 2025}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2021P2Tobii-19M188}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7314356c08fd807ffabcb16558161aa1}{%
+           family={Bianchi},
+           familyi={B\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \strng{fullhash}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \strng{fullhashraw}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \strng{bibnamehash}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \strng{authorbibnamehash}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \strng{authornamehash}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \strng{authorfullhash}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \strng{authorfullhashraw}{9bcb5abdb9fccc32798a6dfb232d2b58}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Methods and systems for a head-mounted device for updating an eye tracking model}}
+      \field{year}{US Patent 11,934,571, Mar. 2024}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:19M192C}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=c6940690fe43329c521268effc473d3e}{%
+           family={Rosell},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2a6fe31881ffd82e9bdba34be2346c6e}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9fd70324117f0a35dae9981da42b0e98}{%
+           family={Remon\bibnamedelima Salazar},
+           familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{fullhash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{fullhashraw}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{bibnamehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authorbibnamehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authornamehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authorfullhash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authorfullhashraw}{84767cec1ecfd2feb0af45c4907640c7}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Eye gaze tracking system, associated methods and computer programs}}
+      \field{year}{US Patent 11,823,413, Nov. 2023}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:19M606}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{481ebf30ea3642aa701f17053227fc5e}
+      \strng{fullhash}{481ebf30ea3642aa701f17053227fc5e}
+      \strng{fullhashraw}{481ebf30ea3642aa701f17053227fc5e}
+      \strng{bibnamehash}{481ebf30ea3642aa701f17053227fc5e}
+      \strng{authorbibnamehash}{481ebf30ea3642aa701f17053227fc5e}
+      \strng{authornamehash}{481ebf30ea3642aa701f17053227fc5e}
+      \strng{authorfullhash}{481ebf30ea3642aa701f17053227fc5e}
+      \strng{authorfullhashraw}{481ebf30ea3642aa701f17053227fc5e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Method, computer program product, control unit and head-mounted display for conserving energy in an eye tracking system}}
+      \field{year}{US Patent 11,681,368, Jun. 2023}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:P135US2}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=2ca38ebc0e0cb8064a936205d2da287f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9fd70324117f0a35dae9981da42b0e98}{%
+           family={Remon\bibnamedelima Salazar},
+           familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=87b9ff7a1e2526d7f6f290c7b9663889}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=50430c39360fc559d07bf6fc286f090b}{%
+           family={Kron},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8e62ff10f569141728eb34453f050eb0}{%
+           family={Sundberg},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{fullhash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{fullhashraw}{976cba7ac33ec423c1261d2144e25075}
+      \strng{bibnamehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authorbibnamehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authornamehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authorfullhash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authorfullhashraw}{976cba7ac33ec423c1261d2144e25075}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Gaze tracking using mapping of pupil center position}}
+      \field{year}{US Patent 11,681,366, Jun. 2023}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:19M192}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=c6940690fe43329c521268effc473d3e}{%
+           family={Rosell},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2a6fe31881ffd82e9bdba34be2346c6e}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9fd70324117f0a35dae9981da42b0e98}{%
+           family={Remon\bibnamedelima Salazar},
+           familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{fullhash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{fullhashraw}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{bibnamehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authorbibnamehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authornamehash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authorfullhash}{84767cec1ecfd2feb0af45c4907640c7}
+      \strng{authorfullhashraw}{84767cec1ecfd2feb0af45c4907640c7}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Eye gaze tracking system, associated methods and computer programs}}
+      \field{year}{US Patent 11,593,962, Feb. 2023}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2023P1}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=de35215ce80327d7531b8d4451f51789}{%
+           family={Björk},
+           familyi={B\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4786919d34cec7bff0e699f4e6bf57f9}{%
+           family={Zachrisson},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{51cb6fe3541ee02ef680c19838a310b1}
+      \strng{fullhash}{51cb6fe3541ee02ef680c19838a310b1}
+      \strng{fullhashraw}{51cb6fe3541ee02ef680c19838a310b1}
+      \strng{bibnamehash}{51cb6fe3541ee02ef680c19838a310b1}
+      \strng{authorbibnamehash}{51cb6fe3541ee02ef680c19838a310b1}
+      \strng{authornamehash}{51cb6fe3541ee02ef680c19838a310b1}
+      \strng{authorfullhash}{51cb6fe3541ee02ef680c19838a310b1}
+      \strng{authorfullhashraw}{51cb6fe3541ee02ef680c19838a310b1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Methods and device for detecting a shadow in a head mounted device}}
+      \field{year}{US Patent 11,556,006, Jan. 2023}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2022P4}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=2ca38ebc0e0cb8064a936205d2da287f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=87b9ff7a1e2526d7f6f290c7b9663889}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \strng{fullhash}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \strng{fullhashraw}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \strng{bibnamehash}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \strng{authorbibnamehash}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \strng{authornamehash}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \strng{authorfullhash}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \strng{authorfullhashraw}{820a37b8ddf5fdf157680c2d61dfc0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB, Feb.}
+      \field{title}{\textbf{Detecting relocation of a head-mounted display}}
+      \field{year}{US Patent 11,259,010, Feb. 2022}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2022P3}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=2ca38ebc0e0cb8064a936205d2da287f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9fd70324117f0a35dae9981da42b0e98}{%
+           family={Remon\bibnamedelima Salazar},
+           familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=87b9ff7a1e2526d7f6f290c7b9663889}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=50430c39360fc559d07bf6fc286f090b}{%
+           family={Kron},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8e62ff10f569141728eb34453f050eb0}{%
+           family={Sundberg},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{fullhash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{fullhashraw}{976cba7ac33ec423c1261d2144e25075}
+      \strng{bibnamehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authorbibnamehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authornamehash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authorfullhash}{976cba7ac33ec423c1261d2144e25075}
+      \strng{authorfullhashraw}{976cba7ac33ec423c1261d2144e25075}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Gaze tracking using mapping of pupil center position}}
+      \field{year}{US Patent 11,249,547, Feb. 2022}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2022P2}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{fullhash}{5f911456157f88585aa2449829e2e82c}
+      \strng{fullhashraw}{5f911456157f88585aa2449829e2e82c}
+      \strng{bibnamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorbibnamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authornamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorfullhash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorfullhashraw}{5f911456157f88585aa2449829e2e82c}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Method and system for glint/reflection identification}}
+      \field{year}{US Patent 11,243,607, Feb. 2022}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2022P1}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9f752feec71e343cd8604f9d11e2f33f}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6ab53aee227a3af77f1d694d3b15c7d6}{%
+           family={Lundahl},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \strng{fullhash}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \strng{fullhashraw}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \strng{bibnamehash}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \strng{authorbibnamehash}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \strng{authornamehash}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \strng{authorfullhash}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \strng{authorfullhashraw}{e46c9f642dd633ccb7c36bfc7f5b6a87}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Iterative point indexing}}
+      \field{year}{US Patent 11,232,594, Jan. 2022}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2021P1}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=87b9ff7a1e2526d7f6f290c7b9663889}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e0c9534c831146549f932034bc842bf3}{%
+           family={Lindén},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e8b696d16d9d1b3465f99f6af86a41ee}{%
+           family={Sjöstrand},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f4c12693bd54502c93c77ca8be55b1f}
+      \strng{fullhash}{7f4c12693bd54502c93c77ca8be55b1f}
+      \strng{fullhashraw}{7f4c12693bd54502c93c77ca8be55b1f}
+      \strng{bibnamehash}{7f4c12693bd54502c93c77ca8be55b1f}
+      \strng{authorbibnamehash}{7f4c12693bd54502c93c77ca8be55b1f}
+      \strng{authornamehash}{7f4c12693bd54502c93c77ca8be55b1f}
+      \strng{authorfullhash}{7f4c12693bd54502c93c77ca8be55b1f}
+      \strng{authorfullhashraw}{7f4c12693bd54502c93c77ca8be55b1f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Updating a cornea model}}
+      \field{year}{US Patent 11,061,473, Jul. 2021}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2020P2}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=87b9ff7a1e2526d7f6f290c7b9663889}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8e62ff10f569141728eb34453f050eb0}{%
+           family={Sundberg},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{fullhash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{fullhashraw}{36e446d3305e24a518c476413c7e42d9}
+      \strng{bibnamehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authorbibnamehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authornamehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authorfullhash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authorfullhashraw}{36e446d3305e24a518c476413c7e42d9}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Determining eye openness with an eye tracking device}}
+      \field{year}{US Patent 10,852,531, Dec. 2020}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2020P1}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e60563b9a0288607f20bc905ee8e407f}{%
+           family={Tornéus},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{442f6380492e4e447140e68a2464f6ce}
+      \strng{fullhash}{442f6380492e4e447140e68a2464f6ce}
+      \strng{fullhashraw}{442f6380492e4e447140e68a2464f6ce}
+      \strng{bibnamehash}{442f6380492e4e447140e68a2464f6ce}
+      \strng{authorbibnamehash}{442f6380492e4e447140e68a2464f6ce}
+      \strng{authornamehash}{442f6380492e4e447140e68a2464f6ce}
+      \strng{authorfullhash}{442f6380492e4e447140e68a2464f6ce}
+      \strng{authorfullhashraw}{442f6380492e4e447140e68a2464f6ce}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Lens position adjustment in a wearable device}}
+      \field{year}{US Patent 10,642,028, May 2020}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2019P4}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=87b9ff7a1e2526d7f6f290c7b9663889}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8e62ff10f569141728eb34453f050eb0}{%
+           family={Sundberg},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{fullhash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{fullhashraw}{36e446d3305e24a518c476413c7e42d9}
+      \strng{bibnamehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authorbibnamehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authornamehash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authorfullhash}{36e446d3305e24a518c476413c7e42d9}
+      \strng{authorfullhashraw}{36e446d3305e24a518c476413c7e42d9}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Determining eye openness with an eye tracking device}}
+      \field{year}{US Patent 10,394,019, Aug, 2019}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2019P3}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e60563b9a0288607f20bc905ee8e407f}{%
+           family={Tornéus},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7e8bc76167d2bb3620dbfb7d241abc08}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{aba9d4b09adf933d0088868ebc39a4a1}
+      \strng{fullhash}{aba9d4b09adf933d0088868ebc39a4a1}
+      \strng{fullhashraw}{aba9d4b09adf933d0088868ebc39a4a1}
+      \strng{bibnamehash}{aba9d4b09adf933d0088868ebc39a4a1}
+      \strng{authorbibnamehash}{aba9d4b09adf933d0088868ebc39a4a1}
+      \strng{authornamehash}{aba9d4b09adf933d0088868ebc39a4a1}
+      \strng{authorfullhash}{aba9d4b09adf933d0088868ebc39a4a1}
+      \strng{authorfullhashraw}{aba9d4b09adf933d0088868ebc39a4a1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB, Jul.}
+      \field{title}{\textbf{Methods and system for controlling illuminators}}
+      \field{year}{US Patent 10,342,425, Jul. 2019}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2019P2}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{fullhash}{5f911456157f88585aa2449829e2e82c}
+      \strng{fullhashraw}{5f911456157f88585aa2449829e2e82c}
+      \strng{bibnamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorbibnamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authornamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorfullhash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorfullhashraw}{5f911456157f88585aa2449829e2e82c}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Method and system for glint/reflection identification}}
+      \field{year}{US Patent 10,324,529, Jun. 2019}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2019P1}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{fullhash}{5f911456157f88585aa2449829e2e82c}
+      \strng{fullhashraw}{5f911456157f88585aa2449829e2e82c}
+      \strng{bibnamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorbibnamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authornamehash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorfullhash}{5f911456157f88585aa2449829e2e82c}
+      \strng{authorfullhashraw}{5f911456157f88585aa2449829e2e82c}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Method and system for glint/reflection identification}}
+      \field{year}{US Patent 10,288,879, May 2019}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2016P2}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=bec368d479aabb209de072895810c201}{%
+           family={Girdzijauskas},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c6aecfcdc9c330969eb3b548381b112d}{%
+           family={Rusert},
+           familyi={R\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=13205e97b41530ea79e1b5ad02124b48}{%
+           family={Georgakis},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8e8596b4a3683ea90814548da916571}
+      \strng{fullhash}{b8e8596b4a3683ea90814548da916571}
+      \strng{fullhashraw}{b8e8596b4a3683ea90814548da916571}
+      \strng{bibnamehash}{b8e8596b4a3683ea90814548da916571}
+      \strng{authorbibnamehash}{b8e8596b4a3683ea90814548da916571}
+      \strng{authornamehash}{b8e8596b4a3683ea90814548da916571}
+      \strng{authorfullhash}{b8e8596b4a3683ea90814548da916571}
+      \strng{authorfullhashraw}{b8e8596b4a3683ea90814548da916571}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Telefonaktiebolaget LM Ericsson AB,}
+      \field{title}{\textbf{Methods and arrangements for {3D} scene representation}}
+      \field{year}{US Patent 9,451,233, Sep. 2016}
+      \true{nocite}
+    \endentry
+    \entry{Pravin:2016P1}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=bec368d479aabb209de072895810c201}{%
+           family={Girdzijauskas},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7b2a51774e22bd87a79d22abfaff885}
+      \strng{fullhash}{b7b2a51774e22bd87a79d22abfaff885}
+      \strng{fullhashraw}{b7b2a51774e22bd87a79d22abfaff885}
+      \strng{bibnamehash}{b7b2a51774e22bd87a79d22abfaff885}
+      \strng{authorbibnamehash}{b7b2a51774e22bd87a79d22abfaff885}
+      \strng{authornamehash}{b7b2a51774e22bd87a79d22abfaff885}
+      \strng{authorfullhash}{b7b2a51774e22bd87a79d22abfaff885}
+      \strng{authorfullhashraw}{b7b2a51774e22bd87a79d22abfaff885}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Telefonaktiebolaget LM Ericsson AB,}
+      \field{title}{\textbf{Method and processor for {3D} scene representation}}
+      \field{year}{US Patent 9,235,920, Jan. 2016}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{22Q317P254US:ConvergenceConfidenceCone}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=47792899df3447c5983e495318c679ad}{%
+           family={Keshavdas},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6ab53aee227a3af77f1d694d3b15c7d6}{%
+           family={Lundahl},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e37ee4c151d99d5639cfff9afcbc8e3e}{%
+           family={Zamani},
+           familyi={Z\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f154c50382b1dfb44e840cf655746573}
+      \strng{fullhash}{f154c50382b1dfb44e840cf655746573}
+      \strng{fullhashraw}{f154c50382b1dfb44e840cf655746573}
+      \strng{bibnamehash}{f154c50382b1dfb44e840cf655746573}
+      \strng{authorbibnamehash}{f154c50382b1dfb44e840cf655746573}
+      \strng{authornamehash}{f154c50382b1dfb44e840cf655746573}
+      \strng{authorfullhash}{f154c50382b1dfb44e840cf655746573}
+      \strng{authorfullhashraw}{f154c50382b1dfb44e840cf655746573}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{An eye tracking system and methods of using an eye tracking system}}
+      \field{year}{US Patent Application 18/762,735, Jan. 2025}
+      \true{nocite}
+    \endentry
+    \entry{22Q315:P249US}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=2a6fe31881ffd82e9bdba34be2346c6e}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c6940690fe43329c521268effc473d3e}{%
+           family={Rosell},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=080227b42be14e4c69914eb87809464d}{%
+           family={Ljungzell},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6ab53aee227a3af77f1d694d3b15c7d6}{%
+           family={Lundahl},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=47792899df3447c5983e495318c679ad}{%
+           family={Keshavdas},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e37ee4c151d99d5639cfff9afcbc8e3e}{%
+           family={Zamani},
+           familyi={Z\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=30dea90e19629b6b7395a1f947eed163}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3e26582a64dfda23f93ad597b6db3bf}
+      \strng{fullhash}{d3e26582a64dfda23f93ad597b6db3bf}
+      \strng{fullhashraw}{d3e26582a64dfda23f93ad597b6db3bf}
+      \strng{bibnamehash}{d3e26582a64dfda23f93ad597b6db3bf}
+      \strng{authorbibnamehash}{d3e26582a64dfda23f93ad597b6db3bf}
+      \strng{authornamehash}{d3e26582a64dfda23f93ad597b6db3bf}
+      \strng{authorfullhash}{d3e26582a64dfda23f93ad597b6db3bf}
+      \strng{authorfullhashraw}{d3e26582a64dfda23f93ad597b6db3bf}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Eye tracking system and methods of using an eye tracking system}}
+      \field{year}{US Patent Application 18/607,639, Sep. 2024}
+      \true{nocite}
+    \endentry
+    \entry{22Q223P244US}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=88ecb7c6855589bf3170d781eac5e006}{%
+           family={Glimaker},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=4566d8f64c2b76c19af0ac8ebb2ff375}{%
+           family={Selin},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{10ccb4477256e4284ef82c1a77937eee}
+      \strng{fullhash}{10ccb4477256e4284ef82c1a77937eee}
+      \strng{fullhashraw}{10ccb4477256e4284ef82c1a77937eee}
+      \strng{bibnamehash}{10ccb4477256e4284ef82c1a77937eee}
+      \strng{authorbibnamehash}{10ccb4477256e4284ef82c1a77937eee}
+      \strng{authornamehash}{10ccb4477256e4284ef82c1a77937eee}
+      \strng{authorfullhash}{10ccb4477256e4284ef82c1a77937eee}
+      \strng{authorfullhashraw}{10ccb4477256e4284ef82c1a77937eee}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Illuminator system for eye tracking system}}
+      \field{year}{US Patent Application 18/408,635, Jul. 2024}
+      \true{nocite}
+    \endentry
+    \entry{21Q411-IlluminationAdjusterP234}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e60563b9a0288607f20bc905ee8e407f}{%
+           family={Tornéus},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=42a377e868d6b9e150a30b9c626e0d3b}{%
+           family={Salazar},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=76f30c4e998f7b1e25ebf22f858c9322}{%
+           family={Walck},
+           familyi={W\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6eea3dbdae4855439fc5755c51c25a60}
+      \strng{fullhash}{6eea3dbdae4855439fc5755c51c25a60}
+      \strng{fullhashraw}{6eea3dbdae4855439fc5755c51c25a60}
+      \strng{bibnamehash}{6eea3dbdae4855439fc5755c51c25a60}
+      \strng{authorbibnamehash}{6eea3dbdae4855439fc5755c51c25a60}
+      \strng{authornamehash}{6eea3dbdae4855439fc5755c51c25a60}
+      \strng{authorfullhash}{6eea3dbdae4855439fc5755c51c25a60}
+      \strng{authorfullhashraw}{6eea3dbdae4855439fc5755c51c25a60}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{Assignee: Tobii AB,}
+      \field{title}{\textbf{Eye tracking system}}
+      \field{year}{US Patent Application 18/212,263, Dec. 2023}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{3}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Pravin:2015TSTSP}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=93257007dabe39fdc9884165d3e31a4e}{%
+           family={Taghia},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc56c3d085d8042379a2aaa9f0f3e53c}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b436743654e1aa00413a8bab65ed4444}
+      \strng{fullhash}{b436743654e1aa00413a8bab65ed4444}
+      \strng{fullhashraw}{b436743654e1aa00413a8bab65ed4444}
+      \strng{bibnamehash}{b436743654e1aa00413a8bab65ed4444}
+      \strng{authorbibnamehash}{b436743654e1aa00413a8bab65ed4444}
+      \strng{authornamehash}{b436743654e1aa00413a8bab65ed4444}
+      \strng{authorfullhash}{b436743654e1aa00413a8bab65ed4444}
+      \strng{authorfullhashraw}{b436743654e1aa00413a8bab65ed4444}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Transactions on Selected Topics in Signal Processing, Special Issue on Interactive Media Processing for Immersive Communication}
+      \field{month}{4}
+      \field{number}{3}
+      \field{title}{\textbf{Probabilistic multiview depth image enhancement using variational inference}}
+      \field{volume}{9}
+      \field{year}{2015}
+      \true{nocite}
+      \field{pages}{435\bibrangedash 448}
+      \range{pages}{14}
+    \endentry
+    \entry{ZMa:2013PR}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=fc56c3d085d8042379a2aaa9f0f3e53c}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=93257007dabe39fdc9884165d3e31a4e}{%
+           family={Taghia},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=37d26c2079260f07560211be1d9c065e}{%
+           family={Leijon},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \strng{fullhash}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \strng{fullhashraw}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \strng{bibnamehash}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \strng{authorbibnamehash}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \strng{authornamehash}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \strng{authorfullhash}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \strng{authorfullhashraw}{e4fab32278625cbe8a1b0bdd7a29fa36}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pattern Recognition}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{\textbf{Bayesian estimation of {D}irichlet mixture model with variational inference}}
+      \field{volume}{47}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{3143\bibrangedash 3157}
+      \range{pages}{15}
+    \endentry
+    \entry{Pravin:2011JGSI}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0963a0f33bd990014e233444ecea178f}{%
+           family={Dash},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f1481988eaf6036b9bb73c2fb64c50f8}{%
+           family={Routray},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b77e3b7282ad051db9f44fe26a014821}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{589c1f0a09d8cc42afc0daef61504897}
+      \strng{fullhash}{589c1f0a09d8cc42afc0daef61504897}
+      \strng{fullhashraw}{589c1f0a09d8cc42afc0daef61504897}
+      \strng{bibnamehash}{589c1f0a09d8cc42afc0daef61504897}
+      \strng{authorbibnamehash}{589c1f0a09d8cc42afc0daef61504897}
+      \strng{authornamehash}{589c1f0a09d8cc42afc0daef61504897}
+      \strng{authorfullhash}{589c1f0a09d8cc42afc0daef61504897}
+      \strng{authorfullhashraw}{589c1f0a09d8cc42afc0daef61504897}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Geological Society of India}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{\textbf{Prediction of sea ice edge in the Antarctic using {GVF} Snake model}}
+      \field{volume}{78}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{99\bibrangedash 108}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{4}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Pravin:20143DTVCON}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=93257007dabe39fdc9884165d3e31a4e}{%
+           family={Taghia},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Budapest, Hungary}%
+      }
+      \strng{namehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{fullhash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{fullhashraw}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{bibnamehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authorbibnamehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authornamehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authorfullhash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authorfullhashraw}{383b714eb7b00e6372371fc0ee959dd1}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of 3DTV Conference: In Pursuit Of Next Generation 3D Display (3DTV-CON)}
+      \field{month}{7}
+      \field{series}{Special Session on Free-Viewpoint Television and Related Technologies}
+      \field{title}{\textbf{Statistical methods for inter-view depth enhancement}}
+      \field{year}{2014}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{Pravin:2013ICASSP}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=fc56c3d085d8042379a2aaa9f0f3e53c}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=93257007dabe39fdc9884165d3e31a4e}{%
+           family={Taghia},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, Canada}%
+      }
+      \strng{namehash}{deb0309964cc9b5a03563295b0c8d8ee}
+      \strng{fullhash}{deb0309964cc9b5a03563295b0c8d8ee}
+      \strng{fullhashraw}{deb0309964cc9b5a03563295b0c8d8ee}
+      \strng{bibnamehash}{deb0309964cc9b5a03563295b0c8d8ee}
+      \strng{authorbibnamehash}{deb0309964cc9b5a03563295b0c8d8ee}
+      \strng{authornamehash}{deb0309964cc9b5a03563295b0c8d8ee}
+      \strng{authorfullhash}{deb0309964cc9b5a03563295b0c8d8ee}
+      \strng{authorfullhashraw}{deb0309964cc9b5a03563295b0c8d8ee}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)}
+      \field{month}{5}
+      \field{title}{\textbf{Multiview depth map enhancement by variational {B}ayes inference estimation of {D}irichlet mixture models}}
+      \field{year}{2013}
+      \true{nocite}
+      \field{pages}{1528\bibrangedash 1532}
+      \range{pages}{5}
+    \endentry
+    \entry{Pravin:2012ISM}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=93257007dabe39fdc9884165d3e31a4e}{%
+           family={Taghia},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Irvine, California, USA}%
+      }
+      \strng{namehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{fullhash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{fullhashraw}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{bibnamehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authorbibnamehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authornamehash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authorfullhash}{383b714eb7b00e6372371fc0ee959dd1}
+      \strng{authorfullhashraw}{383b714eb7b00e6372371fc0ee959dd1}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of IEEE International Symposium on Multimedia (ISM)}
+      \field{month}{12}
+      \field{title}{\textbf{A variational {B}ayesian inference framework for multiview depth image enhancement}}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{183\bibrangedash 190}
+      \range{pages}{8}
+    \endentry
+    \entry{Parthasarathy:20123DTVCON}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=469af6445b0498eec8b83411a48a563e}{%
+           family={Parthasarathy},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f10a0fd98dac36e77c26afd7082b6930}{%
+           family={Chopra},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a96519ec28f46aa2a7e3a1b4db17cd42}{%
+           family={Baudin},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Zurich, Switzerland}%
+      }
+      \strng{namehash}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \strng{fullhash}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \strng{fullhashraw}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \strng{bibnamehash}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \strng{authorbibnamehash}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \strng{authornamehash}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \strng{authorfullhash}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \strng{authorfullhashraw}{6b59e1d73bb3d83a43d21b5a6341897e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of 3DTV Conference: The True Vision - Capture, Transmission and Display of 3D Video (3DTV-CON)}
+      \field{month}{10}
+      \field{title}{\textbf{Denoising of volumetric depth confidence for view rendering}}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{Pravin:2012}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bucharest, Romania}%
+      }
+      \strng{namehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{bibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorbibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authornamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of European Signal Processing Conference (EUSIPCO)}
+      \field{month}{8}
+      \field{title}{\textbf{Depth pixel clustering for consistency testing of multiview depth}}
+      \field{year}{2012}
+      \true{nocite}
+      \field{pages}{1119\bibrangedash 1123}
+      \range{pages}{5}
+    \endentry
+    \entry{Pravin:2011}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Barcelona, Spain}%
+      }
+      \strng{namehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{bibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorbibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authornamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of European Signal Processing Conference (EUSIPCO)}
+      \field{month}{8}
+      \field{title}{\textbf{View interpolation with structured depth from multiview video}}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{383\bibrangedash 387}
+      \range{pages}{5}
+    \endentry
+    \entry{Pravin:2010}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Saint Malo, France}%
+      }
+      \strng{namehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{bibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorbibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authornamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of IEEE SPS International Workshop on Multimedia Signal Processing (MMSP)}
+      \field{month}{10}
+      \field{title}{\textbf{Depth consistency testing for improved view interpolation}}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{384\bibrangedash 389}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{5}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Pravin:2015TIP}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=4aac2dcce9bdd9c2e6f8ac0f87020a63}{%
+           family={Flierl},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{fullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{bibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorbibnamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authornamehash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhash}{32a45e9e9384fd848416692ae55cb33c}
+      \strng{authorfullhashraw}{32a45e9e9384fd848416692ae55cb33c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\href{https://arxiv.org/abs/2301.11752}{arXiv:2301.11752}}
+      \field{month}{1}
+      \field{title}{\textbf{Inter-view depth consistency testing in depth difference subspace}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2301.11752
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{6}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Pravin:2009MPEG}{report}{}{}
+      \name{author}{3}{}{%
+        {{hash=13205e97b41530ea79e1b5ad02124b48}{%
+           family={Georgakis},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=56ebf0efef0330d7d0ac834555eeb47b}{%
+           family={Radulovic},
+           familyi={R\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {MPEG {ISO/IEC JTC 1/SC 29/WG}}%
+      }
+      \list{location}{1}{%
+        {Xian, China}%
+      }
+      \strng{namehash}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \strng{fullhash}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \strng{fullhashraw}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \strng{bibnamehash}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \strng{authorbibnamehash}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \strng{authornamehash}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \strng{authorfullhash}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \strng{authorfullhashraw}{79e5e60ff5e8ed4c4761f523dbb02e6f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{number}{Telefonaktiebolaget L M Ericsson AB, M16977}
+      \field{title}{\textbf{{3DTV} exploration experiments {(EE1 \& EE4)} on the {L}ovebird1 data set}}
+      \field{year}{2009}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{7}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Pravin:2008SCAR}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=481ebf30ea3642aa701f17053227fc5e}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f1481988eaf6036b9bb73c2fb64c50f8}{%
+           family={Routray},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0963a0f33bd990014e233444ecea178f}{%
+           family={Dash},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b77e3b7282ad051db9f44fe26a014821}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {St. Petersburg, Russia}%
+      }
+      \strng{namehash}{d6db733b010894523e75edcd96f43f8d}
+      \strng{fullhash}{d6db733b010894523e75edcd96f43f8d}
+      \strng{fullhashraw}{d6db733b010894523e75edcd96f43f8d}
+      \strng{bibnamehash}{d6db733b010894523e75edcd96f43f8d}
+      \strng{authorbibnamehash}{d6db733b010894523e75edcd96f43f8d}
+      \strng{authornamehash}{d6db733b010894523e75edcd96f43f8d}
+      \strng{authorfullhash}{d6db733b010894523e75edcd96f43f8d}
+      \strng{authorfullhashraw}{d6db733b010894523e75edcd96f43f8d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of SCAR/IASC IPY Open Science Conference}
+      \field{month}{Abstract S1.6/O28, Jul.}
+      \field{title}{\textbf{Prediction of {Antarctic} sea ice edge using artificial intelligence}}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

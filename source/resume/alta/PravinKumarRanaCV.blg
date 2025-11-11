@@ -1,0 +1,139 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'PravinKumarRanaCV.blg'
+[110] biber-darwin:340> INFO - === Tue Nov 11, 2025, 19:36:31
+[132] Biber.pm:420> INFO - Reading 'PravinKumarRanaCV.bcf'
+[285] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[285] Biber.pm:991> INFO - Using all citekeys in bib section 1
+[285] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[286] Biber.pm:991> INFO - Using all citekeys in bib section 2
+[286] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[286] Biber.pm:991> INFO - Using all citekeys in bib section 3
+[286] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[286] Biber.pm:991> INFO - Using all citekeys in bib section 4
+[286] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[286] Biber.pm:991> INFO - Using all citekeys in bib section 5
+[286] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[287] Biber.pm:991> INFO - Using all citekeys in bib section 6
+[287] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[287] Biber.pm:991> INFO - Using all citekeys in bib section 7
+[287] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[363] Biber.pm:4463> INFO - Processing section 1
+[380] Biber.pm:4654> INFO - Looking for bibtex file '../bibliography/patent-issued.bib' for section 1
+[382] bibtex.pm:1713> INFO - LaTeX decoding ...
+[407] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography/patent-issued.bib'
+[626] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[626] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[627] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[627] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[641] Biber.pm:4463> INFO - Processing section 2
+[641] Biber.pm:4654> INFO - Looking for bibtex file '../bibliography/patent-published.bib' for section 2
+[643] bibtex.pm:1713> INFO - LaTeX decoding ...
+[647] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography/patent-published.bib'
+[695] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[695] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[695] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[695] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[700] Biber.pm:4463> INFO - Processing section 3
+[700] Biber.pm:4654> INFO - Looking for bibtex file '../bibliography/refreed-journals.bib' for section 3
+[701] bibtex.pm:1713> INFO - LaTeX decoding ...
+[710] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography/refreed-journals.bib'
+[750] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[750] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[751] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[751] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[754] Biber.pm:4463> INFO - Processing section 4
+[754] Biber.pm:4654> INFO - Looking for bibtex file '../bibliography/refreed-conferences.bib' for section 4
+[756] bibtex.pm:1713> INFO - LaTeX decoding ...
+[768] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography/refreed-conferences.bib'
+[829] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[829] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[829] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[829] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[835] Biber.pm:4463> INFO - Processing section 5
+[835] Biber.pm:4654> INFO - Looking for bibtex file '../bibliography/preprints.bib' for section 5
+[836] bibtex.pm:1713> INFO - LaTeX decoding ...
+[839] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography/preprints.bib'
+[852] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[852] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[853] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[853] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[854] Biber.pm:4463> INFO - Processing section 6
+[854] Biber.pm:4654> INFO - Looking for bibtex file '../bibliography/tech-reports.bib' for section 6
+[855] bibtex.pm:1713> INFO - LaTeX decoding ...
+[858] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography/tech-reports.bib'
+[873] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[873] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[873] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[873] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[874] Biber.pm:4463> INFO - Processing section 7
+[875] Biber.pm:4654> INFO - Looking for bibtex file '../bibliography/conference-abstracts.bib' for section 7
+[876] bibtex.pm:1713> INFO - LaTeX decoding ...
+[878] bibtex.pm:1519> INFO - Found BibTeX data source '../bibliography/conference-abstracts.bib'
+[895] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[895] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[895] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[895] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[897] bbl.pm:676> INFO - Writing 'PravinKumarRanaCV.bbl' with encoding 'UTF-8'
+[928] bbl.pm:779> INFO - Output to PravinKumarRanaCV.bbl
+[928] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2019P2' is not an integer - this will probably not sort properly.
+[928] Biber.pm:131> WARN - legacy year field 'US Patent 10,324,529, Jun. 2019' in entry 'Pravin:2019P2' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2020P1' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 10,642,028, May 2020' in entry 'Pravin:2020P1' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2021P1' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 11,061,473, Jul. 2021' in entry 'Pravin:2021P1' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Telefonaktiebolaget LM Ericsson AB,' in entry 'Pravin:2016P2' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 9,451,233, Sep. 2016' in entry 'Pravin:2016P2' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2022P3' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 11,249,547, Feb. 2022' in entry 'Pravin:2022P3' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2023P1' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 11,556,006, Jan. 2023' in entry 'Pravin:2023P1' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:19M192' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 11,593,962, Feb. 2023' in entry 'Pravin:19M192' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB, Jul.' in entry 'Pravin:2019P3' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 10,342,425, Jul. 2019' in entry 'Pravin:2019P3' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2022P2' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy year field 'US Patent 11,243,607, Feb. 2022' in entry 'Pravin:2022P2' is not an integer - this will probably not sort properly.
+[929] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:19M606' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 11,681,368, Jun. 2023' in entry 'Pravin:19M606' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2022P1' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 11,232,594, Jan. 2022' in entry 'Pravin:2022P1' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2021P2Tobii-19M188' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 11,934,571, Mar. 2024' in entry 'Pravin:2021P2Tobii-19M188' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2022P1Tobii-20M122' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 12,374,071, Jul. 2025' in entry 'Pravin:2022P1Tobii-20M122' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:19M192C' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 11,823,413, Nov. 2023' in entry 'Pravin:19M192C' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB, Feb.' in entry 'Pravin:2022P4' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 11,259,010, Feb. 2022' in entry 'Pravin:2022P4' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy month field 'Assignee: Telefonaktiebolaget LM Ericsson AB,' in entry 'Pravin:2016P1' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 9,235,920, Jan. 2016' in entry 'Pravin:2016P1' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2019P4' is not an integer - this will probably not sort properly.
+[930] Biber.pm:131> WARN - legacy year field 'US Patent 10,394,019, Aug, 2019' in entry 'Pravin:2019P4' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:P135US2' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy year field 'US Patent 11,681,366, Jun. 2023' in entry 'Pravin:P135US2' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2020P2' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy year field 'US Patent 10,852,531, Dec. 2020' in entry 'Pravin:2020P2' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry 'Pravin:2019P1' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy year field 'US Patent 10,288,879, May 2019' in entry 'Pravin:2019P1' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry '21Q411-IlluminationAdjusterP234' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy year field 'US Patent Application 18/212,263, Dec. 2023' in entry '21Q411-IlluminationAdjusterP234' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry '22Q317P254US:ConvergenceConfidenceCone' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy year field 'US Patent Application 18/762,735, Jan. 2025' in entry '22Q317P254US:ConvergenceConfidenceCone' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry '22Q223P244US' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy year field 'US Patent Application 18/408,635, Jul. 2024' in entry '22Q223P244US' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy month field 'Assignee: Tobii AB,' in entry '22Q315:P249US' is not an integer - this will probably not sort properly.
+[931] Biber.pm:131> WARN - legacy year field 'US Patent Application 18/607,639, Sep. 2024' in entry '22Q315:P249US' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Apr.' in entry 'Pravin:2015TSTSP' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Aug.' in entry 'Pravin:2011JGSI' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Sep.' in entry 'ZMa:2013PR' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Oct.' in entry 'Pravin:2010' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Aug.' in entry 'Pravin:2012' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Aug.' in entry 'Pravin:2011' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Dec.' in entry 'Pravin:2012ISM' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Jul.' in entry 'Pravin:20143DTVCON' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Oct.' in entry 'Parthasarathy:20123DTVCON' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'May' in entry 'Pravin:2013ICASSP' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Jan.' in entry 'Pravin:2015TIP' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Oct.' in entry 'Pravin:2009MPEG' is not an integer - this will probably not sort properly.
+[932] Biber.pm:131> WARN - legacy month field 'Abstract S1.6/O28, Jul.' in entry 'Pravin:2008SCAR' is not an integer - this will probably not sort properly.
+[932] Biber.pm:133> INFO - WARNINGS: 61

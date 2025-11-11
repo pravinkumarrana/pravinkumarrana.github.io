@@ -1,0 +1,5 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'patent-issued.blg'
+[103] biber-darwin:340> INFO - === Tue Jul 29, 2025, 17:45:18
+[362] Utils.pm:410> ERROR - Cannot find 'patent-issued.bcf'!
+[362] Biber.pm:136> INFO - ERRORS: 1

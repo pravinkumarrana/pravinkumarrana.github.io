@@ -1,0 +1,432 @@
+%----------------------------------------------------------------------------------------
+% Curriculum vitae of Pravin Kumar Rana
+%
+% possible options include font size ('10pt', '11pt' and '12pt')
+% paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape')
+% font family ('sans' and 'roman')
+%----------------------------------------------------------------------------------------
+\documentclass[10pt, a4paper, lmodern]{moderncv}
+%
+%----------------------------------------------------------------------------------------
+% CV THEME - options include: 'casual' (default), 'classic', 'oldstyle' 
+% and 'banking'
+%----------------------------------------------------------------------------------------
+\moderncvstyle{classic} 
+
+%----------------------------------------------------------------------------------------
+% CV COLOR - options include: 'blue' (default), 'orange', 'green', 'red', 
+% 'purple', 'grey' and 'black'
+%----------------------------------------------------------------------------------------
+\moderncvcolor{blue} 
+
+%----------------------------------------------------------------------------------------
+% CV GEOMETRY 
+%----------------------------------------------------------------------------------------
+\usepackage[scale=.8, top=1.8cm,  bottom=1.8cm]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{2.25cm} % Uncomment to change the width of the dates column
+%\setlength{\textheight}{1800pt}
+\setlength{\footskip}{1in}
+%\usepackage{parskip}\setlength{\parskip}{1cm}
+\usepackage{etoolbox}
+\patchcmd{\subsection}{\vspace*{200cm}}{\vspace{10ex}}{}{}
+\usepackage[english]{babel}
+\usepackage{lipsum}
+\setlength{\itemsep}{200em}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\sfdefault} % Optional: makes it sans-serif
+%----------------------------------------------------------------------------------------
+% CV SYMBOLS and ENCODING
+%----------------------------------------------------------------------------------------
+\usepackage{graphicx, wasysym, fontawesome5}% for symbols
+%\usepackage[utf8]{inputenc}% character encoding
+
+%----------------------------------------------------------------------------------------
+% BIBLIOGRAPHY - MULTIPLE ENTRIES   
+%----------------------------------------------------------------------------------------
+\usepackage[resetlabels]{multibib}
+%
+\newcites{journal,conferences,patentsissued,technical,abstracts,theses,patentspublished,invitedtalk,technicaldemo,conferencetalk,preprints}{{Refereed Journal Articles},{Refereed Conference Articles},{Issued Patents},{Technical Reports},{Conference Abstracts},{Dissertations},{Pending Patent Applications},{Invited},{Technical Demo},{Conference Special Session},{Preprints}}
+%
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\renewcommand*\httplink[2][]{{\urlstyle{sf}\expandafter\href#2}}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+% FIRST AND LAST NAME 
+%----------------------------------------------------------------------------------------
+\firstname{\huge \color{color1}{Pravin Kumar Rana\\ \small{Agile Technology Leader}}
+{\color{color1}\rule{\textwidth}{4pt}}} \familyname{}
+
+%----------------------------------------------------------------------------------------
+% START OF CONTENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+\maketitle \vspace{-10mm}
+
+%----------------------------------------------------------------------------------------
+% CONTACT INFORMATION _{OK}
+%----------------------------------------------------------------------------------------
+\section{Contact}
+%\cvcomputer{\raisebox{-0.35ex}{\includegraphics[width=2.5ex]{linkedInlogo}}}{\href{https://www.linkedin.com/in/pravinkumarrana/}{www.linkedin.com/in/pravinkumarrana/}}{}{}
+\cvcomputer{\faGlobe}{\href{https://www.algopra.com}{www.algopra.com}}{\faAt}{pravinkumarrana@gmail.com}
+%\cvcomputer{\faHome}{\"{O}stersk\"{a}rsv\"{a}gen 16A, 18453 Sweden}{\faPhone}{+46~(0)~738~790~621}
+\cvcomputer{\faHome}{Stockholm, Sweden}{\faPhone}{+46~(0)~738~790~621}
+%
+%
+%----------------------------------------------------------------------------------------
+% SUMMARY
+%----------------------------------------------------------------------------------------
+%
+\section{Summary}
+\cvlistitem{Experienced product and technology leader with 15+ years of expertise driving innovation in embedded technologies through agile methodologies. Proven ability to lead cross-functional teams, manage product lifecycles, and align with stakeholders to deliver customer-centric solutions for Tier-1/2 tech companies across the US and Asia. Achieved 100\% repeat business through on-scope, on-time delivery, while continuously adapting to evolving customer needs. Co-inventor of 25 granted and pending US patents and co-author of 10+ peer-reviewed publications, reflecting a strong drive for innovative, scalable solutions that meet dynamic market demands.}
+%\cvlistitem{Product and technology leader with 10+ years of experience driving innovation in embedded systems, computer vision, and eye-tracking across XR, PC, and mobile platforms. Proven success in end-to-end product development, agile team leadership, and stakeholder alignment, delivering 10+ customer-facing solutions with 90\% on-time, on-budget performance. Inventor of 20+ granted and pending US patents and author of 10+ peer-reviewed publications. Trusted by Tier-1 customers (e.g., Meta, Sony, HTC) for delivering scalable, research-grade platforms that shape next-gen hardware.}
+%\cvlistitem{10+ years of experience in embedded technology encompassing product research and development, agile project and team management, and algorithm development.}
+%%\cvlistitem{10+ years of experience in embedded product development, agile project and team management, innovation, and research in the fields of computer vision, image and video processing, and machine learning}
+%\cvlistitem{20+ granted and pending US patents, along with 10+ publications in referred journals and conferences in areas including gaze and eye tracking systems, stereoscopic and multi-view video, and image data processing.}%\cvlistitem{20+ granted and pending US patents, along with 10+ publications in referred journals and conferences, demonstrating innovative problem-solving within areas such as gaze and eye tracking systems, stereoscopic and multi-view video, and image data processing.}
+%
+%
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+% accomplished [X] as measured by [Y], by doing [Z].?
+%
+\section{Experiences}
+%
+\subsection{\href{https://www.tobii.com}{Tobii AB, Danderyd, Sweden}}
+%
+\cventry{2020 -- Present }{Product Owner -- XR}{} {}{}{}
+\cvlistitem{Leading a team of 6-12 computer vision (CV) engineers in an Agile environment, managing backlog prioritization and aligning project scope with key stakeholders to deliver next-gen eye-tracking solutions that meet the evolving needs of the XR and smart wearable market.}
+%\cvlistitem{Leading a team of 6 - 12 CV algorithm engineers in an Agile environment to develop next-gen eye-tracking capabilities, prioritizing the backlog and aligning scope with stakeholders to deliver solutions that meet evolving customer and market needs.}
+\cvlistitem{Tailoring Tobii eye-tracking solutions to meet Tier-1/2 tech customers' business goals, requirements, and deadlines across the US and Asia, securing multi-million SEK NRE projects.}
+%\cvlistitem{Spearheading cross-functional collaboration between product, sales, and engineering to tailor Tobii XR solutions for Tier-1/2 tech customers' requirements, deadlines, and strategic objectives across the US and Asia, securing multi-million SEK NRE projects.}
+%\cvlistitem{Ensured delivery of 10+ customer-centric solutions with 90\% on-time and on-budget performance, resulting in 100\% repeat business - driven by continuous customer alignment and coordination across stakeholders and cross-functional teams.}%customer
+\cvlistitem{Ensured successful completion of 10+ customer-centric projects on scope, achieving 100\% repeat business and 90\% on-time, on-budget by consistently aligning with customers, adapting to scope changes, and coordinating with internal teams.}%PM
+ \cvlistitem{Managed development of Tobii's first off-axis dual-camera XR eye-tracking platform by leading 6-12 multidisciplinary engineers in Agile cycles to achieve business goals, enabling system integration and advancing research with Tier-1/2 partners (e.g., Meta) to shape next-gen wearable devices.}
+%\cvlistitem{Managed development and delivery of Tobii's first off-axis dual-camera XR eye-tracking platform, leading a multidisciplinary team of 6 - 12 engineers through iterative Agile development to ensure the platform meet specified business goals and requirements, enabling Tier-1 XR research (e.g., Meta Butterscotch) and influencing next-gen headset design}
+%\begin{itemize}
+%   % \item Delivered the research-grade 240 Hz platform with industry-first convergence distance and entrance pupil position signals - state meet all requirements, in addition to standard gaze tracking capabilities.
+%      \item Delivered the research-grade 240 Hz platform with industry-first convergence and entrance pupil signals, enabling Tier-1 XR research (e.g., Meta Butterscotch) and influencing next-gen headset design.
+%    %\item The platform enabled cutting-edge XR research across Tier-1 customers - including Meta's Butterscotch project - shaping next-gen headset design.
+%  \end{itemize}}
+ % 
+ %
+\cventry{2016 -- 2020}{Senior Algorithm Developer}{XR segment} {}{}{} % 2014/03/31
+\cvlistitem{Spearheading a team of 6+ CV engineers as Technical Lead and Scrum Master to develop and customize Tobii's VR4 eye-tracking algorithms, achieving robust cross-population performance and enabling streamlined integration into major VR headsets, e.g., HTC Vive Pro Eye, Sony PS VR2.}
+%\cvlistitem{Led a team of 6+ CV engineers as Technical Lead and Scrum Master, driving the development, optimization, and customization of algorithms for the Tobii VR4 eye-tracking platform. Collaborated with cross-functional product teams to ensure seamless integration across major consumer VR headsets, such as HTC Vive Pro Eye, Sony PlayStation VR2, StarVR One, Pico Neo 2 Eye, HP Reverb G2 Omnicept Edition, and others. The solution's robust performance across population led to its adoption by tier-1 tech companies, underscoring the project's success}
+%\cvlistitem{Led eye-tracking algorithm integration for Tier-1 VR headsets, collaborating with cross-functional teams to align project scope, timelines, and deliverables. Provided technical feedback and prioritized product features with key stakeholders to ensure seamless deployment.}
+\cvlistitem{Led full-cycle algorithm development for Tobii's VR4 optical calibration system, achieving a 50 parts-per-million defect rate, and enabling successful deployment in Tier-1 tech customer's mass production through collaboration with internal and external teams}
+%\cvlistitem{Led full-cycle algorithm development for Tobii's VR4 optical calibration system, achieving Tier-1 customer requirement of 50 parts-per-million defect rate, enabled successful deployment into the customer's mass production through close collaboration with internal and external teams}
+%
+%
+\vspace{1mm}
+\cventry{2014 -- 2016}{Senior Algorithm Developer}{PC Segment} {}{}{} 
+\cvlistitem{Developed and optimized embedded algorithms for Tobii IS4 platforms, improving accuracy and processing speed by up to 50\%, resulting in seamless integration  across a variety of consumer devices, including Tobii EyeX, SteelSeries Sentry, and Acer/Dell gaming laptops.}
+%\cvlistitem{Developed and optimized embedded algorithms for Tobii IS4/IS5 platforms, boosting accuracy and processing speed by up to 50\% in challenging conditions (e.g., users with glasses, low lighting, extreme angles), resulting in seamless integration across many devices (e.g., Tobii EyeX, SteelSeries Sentry, Acer/Dell gaming laptops)}
+%
+%Tobii EyeX, SteelSeries Sentry, PCEye Mini, Eye Tracker 4C, Acer Predator Z301CT,  Acer Predator 21X, Acer Nitro V 17,  and Dell Alienware 17
+%Tobii IS4 eye tracking platform  - Tobii's 6th generation eye tracking platform that developed to meet integration requirements for consumer devices
+%Tobii EyeChip - The first ever  ASIC specifically engineered for eye tracking.
+%
+\cvlistitem{Engineered real-time embedded algorithms for dynamic camera adjustments based on the subject's position, ensuring Microsoft Windows Hello--compliant, password-free login via Tobii IS4 platform.}
+%\cvlistitem{Engineered real-time embedded algorithms for dynamic NIR camera adjustments based on the subject's position, enabling secure password-free login via Tobii IS4 eye-tracking, complying with Microsoft Windows Hello for a seamless user experience.}
+%\cvlistitem{Engineered real-time embedded algorithms for dynamic near-infrared (NIR)  camera adjustments based on the subject's position, ensuring Microsoft Windows Hello--compliant, password-free login using Tobii IS4 platform.}
+\cvlistitem{Collaborated with a cross-functional team of 4 engineers to develop an optical calibration solution for Tobii IS4 platform, achieving <0.5-pixel back projection error and meeting production yield targets with high precision.}
+%\cvlistitem{Led a cross-functional team of 4 engineers in the design and implementation of an optical calibration solution for Tobii IS4 platform, achieving <0.5-pixel back projection error via a purpose-fit feature detection method and meeting production yield targets with high precision.}
+%
+%
+%\vspace{1mm}
+\subsection{\href{https://www.kth.se/en}{KTH Royal Institute of Technology, Stockholm, Sweden}}
+\cventry{2008 -- 2014}{Graduate Researcher}{ACCESS Linnaeus Center, School of Electrical Engineering} {}{}{}
+\cvlistitem{Developed novel scene geometry estimation and rendering techniques with Ericsson AB, improving the 3D free-viewpoint TV experience by achieving a 4 dB PSNR boost in synthesized view quality.}
+\cvlistitem{Engineered innovative 3D video processing solutions, leading to contributions in MPEG ISO/IEC standardization with Ericsson AB, securing 2 US patents, and co-authoring 9 refereed publications.}
+%\cvlistitem{Taught exercises and presented projects in multimedia signal processing, image/video processing, and information theory to undergraduate and graduate students. Graded coursework with detailed feedback and demonstrated computer vision applications using C++, Python, OpenCV, and MATLAB.}
+\cvlistitem{Delivered image/video processing and information theory exercises and project sessions in to undergrad/grad students; graded coursework and demonstrated applications using C++/MATLAB.}
+%
+%
+%\vspace{1mm}
+%\subsection{\href{http://gp-koderma.org/}{Government Polytechnic, Koderma, India}}
+%\cventry{2005 -- 2006}{Lecturer}{Department of Physics}{}{}{}
+%\cvlistitem{Taught 50+ diploma students by delivering lectures, supervising lab sessions, and developing assessments, resulting in improved conceptual understanding and hands-on skills.}
+%
+%
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+%
+\section{Education}
+%
+%\subsection{\href{http://www.kth.se/en}{KTH Royal Institute of Technology, Stockholm, Sweden}}
+%\cvitem{2008 -- }{\textbf{Doctor of  Philosophy in Telecommunications}}
+%\cvitem{Advisor}{\href{http://www.ee.kth.se/~mflierl/}{\textbf{Markus Flierl}}}
+%\cvitem{Research area}{Multi-view and 3D Video Processing}
+%\cvitem{Expected}{October 2018}
+%\cvitem{Dissertation title}{Mutiview depth imagery enhancement techniques for free-viewpoint television (tentative).}
+%
+\subsection{\href{http://www.iitkgp.ac.in/}{Indian Institute of Technology (IIT), Kharagpur, India}}
+\cventry{2006 -- 2008}{Master of Technology in Earth System Science and Technology}{}{}{}{}
+%\cvitem{Advisor}{\textbf{Mihir Kumar Dash}}
+\cvitem{Grade}{9.53/10.00 Cumulative Grade Point Average}
+\cvitem{Specialization}{Satellite Oceanography}
+%\cvitem{Dissertation}{\textit{Prediction of Antarctic sea ice edge using active contour model}.}
+%\cvlistitem{Employed satellite imagery and gradient vector flow to accurately model daily and monthly variations of the sea ice edge in Antarctica, achieving up to 90\% accuracy.}
+%
+%\vspace{1mm}
+\subsection{\href{https://www.ranchiuniversity.ac.in/}{Ranchi University, Ranchi, India}}
+\cventry{2002 -- 2004}{Master of Science in Physics}{}{}{}{}
+%\cvitem{Advisor{\textbf{K. K. Dey}}
+\cvitem{Grade}{Graduated with first class first (71.81\%)}
+\cvitem{Specialization}{Electronics and Communication}
+%\cvitem{Dissertation}{\textit{Study on general impedance converter and its application in realisation of second order active electronic resistor-capacitor-filters}.}
+%\cvlistitem{Implemented operational amplifier based general impedance converter circuit and used it to simulate different types of second-order active electronic resistor-capacitor filters}
+%
+%\vspace{1mm}
+%\cventry{1998 -- 2002}{Bachelor of Science (Honours) in Physics}{}{}{}{}
+%\cvitem{Grade}{Graduated with first class (74.75\%)}
+%
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS_{OK}
+%----------------------------------------------------------------------------------------
+%
+\section{Certifications}
+\subsection{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/P7NSQW4WCV8D}{deeplearning.ai}}
+\cventry{2018}{Deep Learning Specialization}{Andrew Ng}{Cousera}{}{}
+\subsection{\href{https://www.coursera.org/account/accomplishments/verify/48PZC9AAWZYH}{University of Michigan}}
+\cventry{2018}{Programming for Everybody}{Charles Severance}{Cousera}{}{}
+\subsection{\href{https://www.scrumalliance.org/community/profile/prana23}{Scrum Alliance}}
+\cventry{2017}{Certified Scrum Master}{}{}{}{}%$\#$000686203
+\subsection{\href{http://www.iitkgp.ac.in/}{Indian Institute of Technology, Kharagpur, India}}
+\cventry{2007}{Computer Network Management}{}{}{}{}
+%
+%----------------------------------------------------------------------------------------
+% ACHIEVEMENTS
+%----------------------------------------------------------------------------------------
+%
+\section{Achievements}
+\cvitem{}{\textbf{Tobii Star Performer Award}  –  Recognized for consistently delivering exceptional results; earning performance-based Restricted Stock Units (RSUs).}
+\cvitem{}{\textbf{Tobii Top 5 IP Contributor}  –   Granted 17 U.S. patents in eye and gaze-tracking technologies assigned to Tobii since 2014, with many innovations integrated into commercial products.}
+%\cvitem{2016 -- 2025}{\textbf{19 US patent grants} as an inventor and co-inventor in the fields of gaze and eye tracking optical systems, stereoscopic and multi-view video, and image data representation and processing.}
+\cvitem{}{\textbf{Tobii Dragon's Den Award} – Received second prize in a company-wide challenge for pitching a strategic and innovative improvement to eye-tracking algorithms.}
+\cvitem{}{\textbf{MHRD Scholarship Recipient}  –  Awarded the prestigious Government of India scholarship for two years of M.Tech. studies at the IIT Kharagpur.}
+%\cvitem{2006 -- 2008}{\textbf{Ministry of Human Resource Development Scholarship}, Government of India, for Master of Technology at {IIT, Kharagpur}, India.}
+\cvitem{}{\textbf{GATE Top 6\% Rank (Physics)}  –  Secured all India rank 254 out of 4904 in the competitive 2006 Graduate Aptitude Test in Engineering (GATE), a national assessment for Master's program admissions.}
+%\cvitem{2006}{Ranked Top 5\% (254/4904) in \textbf{Graduate Aptitude Test in Engineering}.}
+\cvitem{}{\textbf{Top University Rank}  –  Ranked first in M.Sc. at the Ranchi University, India.}
+%\cvitem{2004}{textbf{Top position} in the Master of Science exam, Ranchi University, Ranchi, India.}
+%\cvitem{2002}{Ranked \textbf{third }in the Bachelor of Science examination from Ranchi University, Ranchi, India.}
+%\cvitem{2004}{Secured the \textbf{top position} in the Master of Science examination at Ranchi University, Ranchi, India.}
+%
+
+%----------------------------------------------------------------------------------------
+% SKILLS 
+%----------------------------------------------------------------------------------------
+%
+\section{Competencies}
+%
+%\subsection{Management and Planning}
+\cvitem{Management and Planning}{Agile Project and Program Management, Product Lifecycle Oversight, Resource Allocation and Budgeting, Backlog Prioritization, Sprint Planning, Stakeholder Engagement, Risk Mitigation and Contingency Planning, Customer-Centric Planning}
+%
+%\subsection{Leadership and Collaboration}
+\cvitem{Leadership and Collaboration}{Cross-Functional Team Leadership, Agile Process Leadership, Technical Decision-Making, Customer Expectation Management, On-Time and On-Budget Delivery, Business Growth Enablement}
+%
+%\subsection{Execution}
+\cvitem{Execution}{OKR and KPI Alignment, Cross-Team Dependency Management, Agile Execution Process Design and Optimization, Change Management, Continuous Improvement Initiatives, Data-Driven Performance Tracking}
+%
+%\subsection{Technical Proficiency}
+\cvitem{Technical}{Programming Languages: C++, Python, MATLAB}
+\cvitem{}{Frameworks and Tools: Git, Jenkins, Docker, OpenCV, Eigen}
+\cvitem{}{Operating Systems: Linux, Windows, macOS}
+\cvitem{}{IDEs: Eclipse, Visual Studio, CLion}
+\cvitem{}{Specializations: Embedded Real-Time Systems, Computer Vision, Artificial Intelligence}
+%
+%
+%\subsection{Management}
+%\cvitem{}{Agile Project \& Program Management, Product Management, Project Scoping, Requirement Gathering \& Backlog Prioritization, Stakeholder Alignment \& Communication, Risk Management \& Mitigation, Budgeting, Resource Allocation \& Timeline Management}
+%\subsection{Leadership}
+%\cvitem{}{Cross-functional Team Leadership}
+%\subsection{Technical}
+%\subsection{Technologies \& Tools}
+%
+%\cvcomputer{}{Management}{Leadership}{\hfill}
+%\cvcomputer{Methodologies}{Agile}{Project Management}{Scope, Budget, Risk, Resource, and Timeline Management}
+%
+%\cvitem{Management}{Product Lifecycle Management, Project Scoping, Requirement Gathering \& Backlog Prioritization, Stakeholder Alignment \& Communication, Risk Management \& Mitigation, Budgeting, Resource Allocation \& Timeline Management}
+%\cvitem{Leadership}{Project Lifecycle Management, Cross-Functional Team Management}
+%\cvitem{Strategic}{Customer-Centric Solutions}
+%\subsection{Management}
+%\cvcomputer{Methodologies}{Agile}{Project Management}{Scope, Budget, Risk, Resource, and Timeline Management}
+%\cvcomputer{Tools}{Jira, Confluence, MS Office Suite}{Product Ownership}{Backlog Prioritization, Sprint Planning, Agile Ceremonies}
+%
+%\subsection{Leadership}
+%\cvcomputer{Team Leadership}{Guiding Cross-Functional Engineering Teams}{Collaboration}{Driving Cross-Departmental Alignment for Product Strategy}
+%\cvcomputer{Agile Leadership}{Facilitating Agile Practices and Team Performance}{Decision-Making}{Aligning Technical Execution with Business Objectives}
+%
+%\subsection{Communication}
+%\cvcomputer{Stakeholder Engagement}{Executive, Customer, and Internal Communication}{Customer Requirements}{Needs Gathering, Expectation Management, Satisfaction Tracking}
+%\cvcomputer{Negotiation}{Balancing Scope, Deadlines, and Resources}{Documentation}{Reports, Roadmaps, and Backlogs for Team Transparency}
+%
+%\subsection{Customer Focus}
+%\cvcomputer{Solution Tailoring}{Customizing Deliverables to Meet Technical and Business Goals}{Customer Success}{Driving On-Time, On-Budget Delivery and Repeat Business}
+%
+%\subsection{Technologies \& Tools}
+%\cvcomputer{Languages}{C++, Python, MATLAB}{Tools}{Git, Jenkins, Docker, OpenCV, Eigen}
+%\cvcomputer{OS}{Linux, Windows, macOS}{IDEs}{Eclipse, Visual Studio, CLion}%
+%----------------------------------------------------------------------------------------
+% CONFERENCE, WORKSHOP, INVITED TALKS 
+%----------------------------------------------------------------------------------------
+%
+\section{Speaking Engagements} 
+\cvitem{2019}{\textbf{\textit{Eye tracking in 5G era}}, Tobii Develop Beyond, Tobii AB, Stockholm, Sweden}
+\cvitem{2017}{\textbf{\textit{Tobii eye tracking VR development kit}}, ACCESS Workshop, Stockholm, Sweden}
+%\cvitem{2017}{\textbf{\textit{Tobii eye tracking VR development kit}}, ACCESS Data Analytics Workshop, KTH Royal Institute of Technology, Stockholm, Sweden}
+\cvitem{2015}{\textbf{\textit{Stereo vision based distance estimation in Tobii IS4 eye tracking platform}}, Tobii Develop Beyond, Tobii AB, Stockholm, Sweden}
+\cvitem{2014}{\textbf{\textit{Statistical methods for inter-view depth enhancement}}, 3DTV-Con, Budapest, Hungary}
+%\cvitem{2014}{\textbf{\textit{Statistical methods for inter-view depth enhancement}}, 3DTV Conference, Special Session on Free-Viewpoint TV and Related Technologies, Budapest, Hungary}
+\cvitem{2013}{\textbf{\textit{Multiview depth map enhancement by variational Bayes inference estimation of Dirichlet mixture models}}, IEEE ICASSP, Vancouver, Canada}
+%\cvitem{2013}{\textbf{\textit{Multiview depth map enhancement by variational Bayes inference estimation of Dirichlet mixture models}}, IEEE International Conference on Acoustics, Speech, and Signal Processing, Vancouver, Canada}
+%\cvitem{2013}{ACCESS Industrial Workshop, KTH Royal Institute of Technology, Stockholm, Sweden}
+\cvitem{2012}{\textbf{\textit{A variational Bayesian inference framework for multiview depth Image enhancement}}, IEEE ISM, Irvine, USA}
+%\cvitem{2012}{\textbf{\textit{A variational Bayesian inference framework for multiview depth Image enhancement}}, IEEE International Symposium on Multimedia, Irvine, California, USA}
+\cvitem{2012}{\textbf{\textit{Denoising of volumetric depth confidence for view rendering}}, 3DTV-Con, Zurich, Switzerland}
+%\cvitem{2012}{\textbf{\textit{Denoising of volumetric depth confidence for view rendering}}, 3DTV-Conference, Zurich, Switzerland}
+\cvitem{2012}{\textbf{\textit{Depth pixel clustering for consistency testing of multiview depth}}, EUSIPCO, Bucharest, Romania}
+%\cvitem{2012}{\textbf{\textit{Depth pixel clustering for consistency testing of multiview depth}}, European Signal Processing Conference, Bucharest, Romania}
+%\cvitem{2012}{\textbf{\textit{Depth pixel clustering for consistency testing of multiview depth}}, ACCESS Workshop, Stockholm, Sweden}
+%\cvitem{2012}{\textbf{\textit{Depth pixel clustering for consistency testing of multiview depth}}, ACCESS PhD and Post-doc Workshop, KTH Royal Institute of Technology, Stockholm, Sweden}
+%\cvitem{2011}{ACCESS Industrial Workshop, KTH Royal Institute of Technology, Stockholm, Sweden}
+\cvitem{2011}{\textbf{\textit{View interpolation with structured depth from multiview video}}, EUSIPCO, Barcelona, Spain}
+%\cvitem{2011}{\textbf{\textit{View interpolation with structured depth from multiview video}}, European Signal Processing Conference, Barcelona, Spain}
+\cvitem{2010}{\textbf{\textit{Depth consistency testing for improved view interpolation}}, IEEE MMSP, Saint Malo, France}
+%\cvitem{2010}{\textbf{\textit{Depth consistency testing for improved view interpolation}}, IEEE International Workshop on Multimedia Signal Processing, Saint Malo, France}
+\cvitem{2008}{\textbf{\textit{Prediction of Antarctic sea ice edge using artificial intelligence}}, SCAR/IASC IPY Open Science Conference, St. Petersburg, Russia}
+\cvitem{2008}{\textbf{\textit{Prediction of sea ice edge by using image processing techniques}}, DTU,  Risø, Denmark}
+%\cvitem{2008}{\textbf{\textit{Prediction of sea ice edge by using image processing techniques}}, Department of Wind Energy, Technical University of Denmark (DTU),  Risø, Denmark}
+%
+%
+%----------------------------------------------------------------------------------------
+% PATENTS AND PUBLICATIONS
+%----------------------------------------------------------------------------------------
+%
+\section{Patents \& Publications}
+\cvcomputer{}{US Patent Granted: 19}{}{US Patent Applications: 6}
+\cvcomputer{}{Refereed Journal Articles: 3}{}{Refereed Conference Papers: 7}
+\cvcomputer{}{Technical Reports: 1}{}{Conference Abstracts: 1}
+\cvcomputer{}{Preprint: 1}{}{Dissertations: 2}
+%
+\section{Patents}
+\nocitepatentsissued{*}
+\bibliographystylepatentsissued{ieeetr}
+\bibliographypatentsissued{../bibliography/patentsissued}
+\vspace{1mm}
+\nocitepatentspublished{*}
+\bibliographystylepatentspublished{ieeetr}
+\bibliographypatentspublished{../bibliography/patentspublished}
+\vspace{1mm}
+%
+%\section{Publications}
+%\nocitepreprints{*}
+%\bibliographystylepreprints{IEEEtran}
+%\bibliographypreprints{preprints}
+%\vspace{1mm}
+%\nocitejournal{*}
+%\bibliographystylejournal{IEEEtran}
+%\bibliographyjournal{journal}
+%\vspace{1mm}
+%\setcounter{enumiv}{0}
+%\nociteconferences{*}
+%\bibliographystyleconferences{ieeetr}
+%\bibliographyconferences{conferences}
+%\vspace{1mm}
+%\setcounter{enumiv}{0}
+%\nocitetechnical{*}
+%\bibliographystyletechnical{ieeetr}
+%\bibliographytechnical{technical}
+%\vspace{1mm}
+%\setcounter{enumiv}{0}
+%\nociteabstracts{*}
+%\bibliographystyleabstracts{ieeetr}
+%\bibliographyabstracts{abstracts}
+%\vspace{1mm}
+%\setcounter{enumiv}{0}
+%\nocitetheses{*}
+%\bibliographystyletheses{ieeetr}
+%\bibliographytheses{theses}
+%%
+%----------------------------------------------------------------------------------------
+% MEDIA 
+%----------------------------------------------------------------------------------------
+%
+\section{Media Coverage}
+\cvitem{[1]}{A. Wahlberg and J. Koch, ``\textbf{\textit{Free Viewpoint Television: Det nya TV-tittandet}}'', {Osqledaren}, (K\r{a}rhuset Nymble, Drottning Kristinas v\"{a}g 19, THS, Stockholm), no. 3, pp. 10 -- 11, 2009/2010. (Swedish)}
+%
+%----------------------------------------------------------------------------------------
+% LANGUAGES
+%----------------------------------------------------------------------------------------
+%
+%\section{Languages}
+%\cvitem{Native}{Hindi}
+%\cvitem{Fluent}{English}
+%
+%----------------------------------------------------------------------------------------
+% INTERESTS
+%----------------------------------------------------------------------------------------
+%\section{Interests}
+%\cvitem{}{Photography}
+%\cvitem{Fluent}{English}
+
+%----------------------------------------------------------------------------------------
+% REFERENCES 
+%----------------------------------------------------------------------------------------
+%\section{References}
+%\cvitem{}{Available upon request.}
+
+%\subsection{Mark  Ryan}
+%\cvitem{}{Line Manager}
+%\cvitem{\faHome}{Division of Information Science and Engineering}
+%\cvitem{}{Tobii AB (publ.), SE-10044, Stockholm, Sweden}
+%\cvitem{\faPhone}{+46 8 790 7425}
+%\cvitem{\faAt}{mark.ryan@tobii.com}
+%\cvitem{\faGlobe}{\href{http://people.kth.se/~mflierl/}{www.people.kth.se/$\sim$mflierl}}
+%
+%\subsection{Markus Flierl}
+%\cvitem{}{Associate Professor}
+%\cvitem{\faHome}{Division of Information Science and Engineering}
+%\cvitem{}{KTH Royal Institute of Technology, SE-10044, Stockholm, Sweden}
+%\cvitem{\faPhone}{+46 8 790 7425}
+%\cvitem{\faAt}{markus.flierl@ee.kth.se}
+%\cvitem{\faGlobe}{\href{http://people.kth.se/~mflierl/}{www.people.kth.se/$\sim$mflierl}}
+%
+%\subsection{Ivana Girdzijauskas}
+%\cvitem{}{European Patent Attorney}
+%\cvitem{\faHome}{Ericsson AB, Kista, SE-16483, Stockholm, Sweden}
+%\cvitem{\faPhone}{+46 761 441 403}
+%\cvitem{\faAt}{ivana.girdzijauskas@ericsson.com}
+%\cvitem{\faLinkedin}{\href{https://www.linkedin.com/in/ivana-girdzijauskas-8479b53/}{Ivana Girdzijauskas}}
+%
+%\subsection{Zhanyu Ma}
+%\cvitem{}{Assistant Professor}
+%\cvitem{\faHome}{Pattern Recognition and Intelligent System Laboratory}
+%\cvitem{}{Beijing University of Posts and Telecommunications, 100876 - Beijing, China}
+%\cvitem{\faPhone}{+86 1346 632 3341}
+%\cvitem{\faAt}{mazhanyu@bupt.edu.cn}
+%\cvitem{\faGlobe}{\href{http://www.pris.net.cn/en/introduction-en/teacher-en/zhanyu}{Web: www.iitbbs.ac.in/pcpandey/}}
+%
+%\subsection{Mihir Kumar Dash}
+%\cvitem{}{Assistant Professor}
+%\cvitem{\faHome}{Center for Oceans, Rivers, Atmosphere and Land Sciences}
+%\cvitem{}{Indian Institute  of  Technology, 721302 - Kharagpur, India}
+%\cvitem{\faPhone}{+91 3222 281 824}
+%\cvitem{\faMobile}{+91 99 33 078541}
+%\cvitem{\faAt}{mihir@coral.iitkgp.ernet.in}
+%\cvitem{\faGlobe}{\href{http://www.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=bXmYW}{Web: www.iitkgp.ac.in/mkdash/}}
+%
+%\vfill
+%\center \copyright ~Pravin Kumar Rana
+%\center ~Pravin Kumar Rana
+%\center{\textbullet~~\faPhone~+46~(0)~738~790~621~~\textbullet~~\faGlobe~{\href{http://www.algopra.com}{www.algopra.com}~~\textbullet~~\faAt~pravinkumarrana@gmail.com~~\textbullet}
+%\center Stockholm, \today{}
+\end{document}
+%----------------------------------------------------------------------------------------
+% THE END
+%----------------------------------------------------------------------------------------

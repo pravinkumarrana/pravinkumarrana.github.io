@@ -1,0 +1,402 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Pravin Kumar Rana CV (altacv.cls)
+%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,withhyper]{altacv}
+% AltaCV uses the fontawesome5 and simpleicons packages.
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.25cm}
+
+% Hyphenation limits
+\usepackage[none]{hyphenat}
+\hyphenpenalty=5000
+\exhyphenpenalty=5000
+\lefthyphenmin=2
+\righthyphenmin=2
+\usepackage{ragged2e}
+\RaggedRight
+\usepackage{microtype}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+% For academic icons
+\usepackage{academicons} 
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+% WHEN COMPILING WITH XELATEX PLEASE USE
+% xelatex -shell-escape -output-driver="xdvipdfmx -z 0" mmayer.tex
+\iftutex
+  % If using xelatex or lualatex:
+   \setmainfont{Lato}
+\else
+  % If using pdflatex:
+   \usepackage[default]{lato}
+\fi
+\usepackage{lmodern} \renewcommand{\familydefault}{\sfdefault}
+
+% Change the colours if you want to
+\definecolor{SteelBlue}{HTML}{4682B4}
+\definecolor{VividBlue}{HTML}{2A7AE2}
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{1A4E9E}
+\definecolor{LightGrey}{HTML}{333333}
+
+% \colorlet{name}{black}
+% \colorlet{tagline}{PastelRed}
+\colorlet{heading}{SlateGrey}
+\colorlet{headingrule}{SlateGrey}
+\colorlet{subheading}{SlateGrey}
+\colorlet{accent}{SlateGrey}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Highligh href links
+\newcommand{\hhref}[2]{\textcolor{VividBlue}{\href{#1}{#2}}}
+
+% Change some fonts, if necessary
+% \renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+% \renewcommand{\personalinfofont}{\footnotesize}
+% \renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+% \renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\cvItemMarker}{{\small\textbullet}}
+\renewcommand{\cvRatingMarker}{\faCircle}
+% ...and the markers for the date/location for \cvevent
+\renewcommand{\cvDateMarker}{\faCalendar*[regular]}
+\renewcommand{\cvLocationMarker}{\faMapMarker*}
+
+% If your CV/résumé is in a language other than English,
+% then you probably want to change these so that when you
+% copy-paste from the PDF or run pdftotext, the location
+% and date marker icons for \cvevent will paste as correct
+% translations. For example Spanish:
+% \renewcommand{\locationname}{Ubicación}
+% \renewcommand{\datename}{Fecha}
+
+% Use (and optionally edit if necessary) this .tex if you
+% want an originally numerical reference style like IEEE
+% for your publication list
+\input{pubs-num.cfg}
+
+% bib files for publications
+\addbibresource{../bibliography/patent-issued.bib}
+\addbibresource{../bibliography/patent-published.bib}
+\addbibresource{../bibliography/refreed-journals.bib}
+\addbibresource{../bibliography/refreed-conferences.bib}
+\addbibresource{../bibliography/conference-abstracts.bib}
+\addbibresource{../bibliography/preprints.bib}
+\addbibresource{../bibliography/tech-reports.bib}
+\addbibresource{../bibliography/theses.bib}
+
+% custom google scholar link 
+% \NewInfoField{googlescholar}{~\aiGoogleScholar~}[https://scholar.google.com/citations?user=] 
+ \newcommand{\customnewline}{\newline\vspace{0.125em}}
+ 
+% start cv
+\begin{document}
+\name{Pravin Kumar Rana}
+% \tagline{} %Next-Gen Technology Professional} 
+% You can add multiple photos on the left or right
+% \photoR{2.5cm}{mmayer-wikipedia-cc-by-2_0}
+% \photoL{2cm}{Yacht_High,Suitcase_High}
+\personalinfo{
+% \textcolor{VividBlue}%\hhref{https://www.algopra.com}{www.algopra.com} |  \hhref{mailto:pravinkumarrana@gmail.com}{pravinkumarrana@gmail.com} | \hhref{tel:+46738790621}{+46 738-790-621} | Stockholm, Sweden} 
+   % \textcolor{VividBlue}{
+        % Not all of these are required!
+        % You can add your own with \printinfo{symbol}{detail}
+        \homepage{algopra.com}\hspace{-1.75em}
+        \email{pravinkumarrana@gmail.com}\hspace{-1.75em}
+        \linkedin{pravinkumarrana}\hspace{-1.75em}
+        \phone{+46 738-790-621}\hspace{-1.75em}\location{Stockholm, Sweden}
+        % \mailaddress{Address, Street, 00000 County}
+        % \twitter{@marissamayer}
+        % \xtwitter{@marissamayer}
+        % \googlescholar{9dIuZQcAAAAJ}
+        % \github{github.com/mmayer} % I'm just making this up though.
+        % \orcid{0000-0000-0000-0000} % Obviously making this up too.
+        % You can add your own arbitrary detail with
+        % \printinfo{symbol}{detail}[optional hyperlink prefix]
+        % \printinfo{\faPaw}{Hey ho!}
+        % Or you can declare your own field with
+        % \NewInfoFiled{fieldname}{symbol}[optional hyperlink prefix] and use it:
+        % \NewInfoField{gitlab}{\faGitlab}[https://gitlab.com/]
+        % \gitlab{your_id}
+        %
+        % For services and platforms like Mastodon where there isn't a
+        % straightforward relation between the user ID/nickname and the hyperlink,
+        % you can use \printinfo directly e.g.
+        % \printinfo{\faMastodon}{@username@instace}[https://instance.url/@username]
+        % But if you absolutely want to create new dedicated info fields for
+        % such platforms, then use \NewInfoField* with a star:
+        % \NewInfoField*{mastodon}{\faMastodon}
+        % then you can use \mastodon, with TWO arguments where the 2nd argument is
+        % the full hyperlink.
+        % \mastodon{@username@instance}{https://instance.url/@username}
+%}
+}
+
+\makecvheader
+
+% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+% Set the left/right column width ratio to 6:4.
+\columnratio{0.62}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+
+\cvsection{Experience}
+
+\cvevent{Product Owner and Project Manager -- XR}{\hhref{https://www.tobii.com}{Tobii AB}}{Aug 2020 -- Present}{Stockholm, Sweden} %Aug 28, 2020
+\begin{itemize}
+\item Lead 12+ engineers across system, hardware, firmware, and algorithm, delivering next-gen ML eye-tracking platform for XR and smart eyewear, now deployed in \hhref{https://pfdm.ai/}{Play for Dream MR} and \hhref{https://www.tobii.com/products/eye-trackers/wearables/tobii-glasses-x}{Glasses X}
+\item Owned full product lifecycle of Tobii’s first XR dual-camera platform, powering XR development at leading firms including \hhref{https://dl.acm.org/doi/10.1145/3588037.3595389}{Meta}
+\item Ensured program success by maintaining roadmap and delivery momentum, coordinating global teams and stakeholders during Program Manager’s absence
+\item Secured 15+ multimillion‑SEK programs by tailoring platform capabilities, driving revenue growth and meeting evolving client needs
+\item Drove 80\% client retention through on‑scope, on‑time delivery, fostering long‑term partnerships via strategic planning and engagement
+\item Shared roadmap progress and strategic updates at company-wide all-hands, aligning global leadership and staff on XR priorities
+\end{itemize}
+
+\divider
+
+\cvevent{Senior Algorithm Developer -- XR}{\hhref{https://www.tobii.com}{Tobii AB}}{Mar 2016 -- Aug 2020}{Stockholm, Sweden}
+\begin{itemize} 
+\item Oversaw OEM-specific algorithm integration into 7+ commercial headsets, including \hhref{https://www.vive.com/hk/product/vive-pro-eye/}{HTC Vive Pro Eye}, \hhref{https://www.xrtoday.com/virtual-reality/sony-secures-tobii-eye-tracking-for-psvr-2/}{Sony PlayStation VR2}, and \hhref{https://www.picoxr.com/global/products/neo3-pro-eye/}{Pico Neo 3 Pro Eye}, driving adoption across leading OEMs% 1. Sony PS VR2, 2 HTC Vive, 3 Pico 2, 4 Pico 3, 5 StarVR, 6 PimaxVR, 7 HP, 8 Qualcomm ref designs
+\item Served 6+ algorithm engineers as Tech Lead and Scrum Master, delivering Tobii’s VR eye‑tracking platforms with 95\% user coverage and early traction for \hhref{https://news.cision.com/tobii-tech/r/tobii-releases-eye-tracking-vr-development-kit-for-htc-vive,c2275187}{Tobii VR Dev Kit}
+\item Led development of scalable optical calibration algorithm for the VR platforms, enabling mass production at \hhref{https://www.player.one/psvr-2-tobii-eye-tracking-confirmed-148486}{top-tier OEMs} with defect rates below 50 parts per million% (PPM).
+\item Bridged engineering, product, and sales to translate client requirements into production‑ready solutions, accelerating headset launches across multiple OEMs
+%\item Orchestrated Agile workflows across sprints, backlog grooming, and release planning with product owners
+%\item Orchestrated sprints and backlog with Product Owners, leveraging team capacity and sprint velocity insights to consistently achieve \~90\% sprint goal completion
+\item Orchestrated sprints and backlog with Product Owners, leveraging sprint throughput insights to consistently achieve \~90\% sprint goals and accelerate release cadence
+\end{itemize}
+
+\divider
+
+\cvevent{Senior Algorithm Developer -- Peripheral Devices}{\hhref{https://www.tobii.com}{Tobii AB}}{Mar 2014 -- Feb 2016}{Stockholm, Sweden}% Mar 31, 2014
+\begin{itemize} 
+\item Developed embedded algorithms for \hhref{https://news.cision.com/tobii-ab/r/tobii-unveils-next-generation-eye-tracking-platform-targeting-consumer-devices,c9847938}{Tobii’s IS4 eye-tracking platform}, deployed in \hhref{https://www.dell.com/en-us/shop/dell-laptops/sr/laptops/alienware-laptops}{Dell} and \hhref{https://www.acer.com/us-en/laptops/gaming}{Acer} laptops and medical devices including \hhref{https://store.prc-saltillo.com/category/accent}{PRC-Saltillo Accent}, expanding market adoption
+\item Built real-time, user-position-aware camera control algorithm, making the IS4 platform \hhref{https://uk.pcmag.com/software/73918/log-in-to-windows-hello-with-tobii-eye-trackers}{Windows Hello–compliant} for secure biometric login
+\item Co-developed a subpixel-accurate optical calibration solution, achieving 99.8\% first-pass mass production yield across 1M+ IS4 units
+\end{itemize}
+
+\divider
+
+\cvevent{Graduate Researcher -- School of Electrical Engineering}{\hhref{https://www.kth.se/}{KTH Royal Institute of Technology}}{Sep 2008 -- Mar 2014}{Stockholm, Sweden} % ACCESS Linnaeus Center, School of Electrical Engineering
+\begin{itemize} 
+\item Designed novel 3D scene geometry and rendering algorithms, improving view synthesis quality by up to \hhref{https://ieeexplore.ieee.org/abstract/document/7074087}{4 dB in PSNR} and enriching \hhref{https://www.algopra.com/publications/pdfs/unpublished/Rana11_FTV.pdf}{Free-viewpoint TV} immersion
+\item Engineered multiview video and depth processing techniques with Ericsson AB, resulting in 2 U.S. patents, 8 peer-reviewed publications, and input to \hhref{https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-108327}{MPEG} standards
+\item Taught image and video processing and information theory, supervised student projects, and evaluated performance across academic levels
+\end{itemize}
+
+\cvsection{Education}
+
+\cvevent{M.Tech\ in Earth System Science and Technology}{\hhref{https://www.iitkgp.ac.in/}{Indian Institute of Technology}}{Jul 2006 -- Jun 2008}{Kharagpur, India}
+\begin{itemize}[label={}]
+	\item  \textbf{Specialization}: Satellite Oceanography
+	\item  \textbf{Cumulative GPA}: 9.53/10.00
+\end{itemize}
+
+\divider
+
+\cvevent{M.Sc.\ in Physics}{\hhref{https://ranchiuniversity.ac.in/}{Ranchi University}}{Sep 2002 -- Jun 2004}{Ranchi, India}
+\begin{itemize}[label={}]
+	\item \textbf{Specialization}: Electronics and Communication
+	\item  \textbf{First Class Honours}: 71.81\%
+\end{itemize}
+
+\cvsection{Certifications}
+
+\cvevent{AI Product Manager Specialization}{\hhref{https://coursera.org/share/7e0033786093b4ae3dc07b6e743ff729}{IBM, SkillUp}}{Aug 2025}{Coursera}
+\divider 
+
+\cvevent{Project Management Specialization}{\hhref{https://coursera.org/share/d1adf1a1fef03d333370c83872a8f46c}{Google}}{Aug 2025}{Coursera}
+\divider 
+
+\cvevent{Deep Learning Specialization}{\hhref{https://coursera.org/share/9910b73a9a1b895decd9536cdf4063d7}{DeepLearning.AI}}{Mar 2018}{Coursera}
+\divider 
+
+\cvevent{Certified ScrumMaster (CSM)}{\hhref{https://www.algopra.com/source/certificates/ScrumAlliance/ScrumAlliance_CSM_Certificate_20171119.pdf}{Scrum Alliance}}{Aug 2017, Expired: Aug 2019}{Stockholm, Sweden}
+
+%\divider 
+
+%\cvevent{\hhref{https://www.coursera.org/account/accomplishments/verify/48PZC9AAWZYH}{Programming for Everybody}}{\h\hhref{https://www.coursera.org/specializations/python}{University of Michigan}}{Aug 2016 --  Aug 2016}{Coursera}
+
+% footnote
+\vfill
+{\footnotesize Updated \today, Stockholm, Sweden}
+
+% use ONLY \newpage if you want to force a page break for
+% ONLY the currentc column
+\newpage
+
+% Switch to the right column. This will now automatically move to the second
+% page if the content is too long.
+\vfill
+\switchcolumn
+  
+\cvsection{Summary}
+
+Technology professional with 15+ years at the intersection of embedded systems, computer vision, ML, and XR. Delivered integrated hardware-software platforms and led agile cross-functional teams. Architected scalable solutions adopted by global tech leaders like Meta, ByteDance, and Sony. Skilled in shaping product vision, aligning stakeholders, and translating complex challenges into user-centric technologies. Adept at stakeholder navigation, agile execution, and fostering collaboration across technical and business domains. Passionate about advancing innovations that empower users and deliver meaningful impact.
+
+\cvsection{Competencies}
+%
+\cvachievement{\faIndustry}{Management}{Strategic Prioritization, Stakeholder Engagement, Product Ownership, Project Management,  Backlog Coordination, KPI-Driven Decisions, Program Oversight}
+
+\divider
+
+\cvachievement{\faUsers}{Leadership}{Agile, Scrum, SAFe, Release Planning, Workflow Optimization, Technical Mentorship, Continuous Improvement, Cross-Functional Collaboration}
+
+\divider
+
+\cvachievement{\faTools}{Technical Expertise}{\textbf{Domain}: Extended Reality (XR: AR/VR/MR), Machine Learning, Eye Tracking, Computer Vision, Optical Systems, Embedded Systems \customnewline \textbf{Programming}: C++, Python  \customnewline \textbf{Tools}: Git, JIRA, Confluence, Power BI, Microsoft 365}
+
+\cvsection{Innovations}
+%
+\cvachievement{\faFileSignature}{U.S. Patents}{\textbf{Granted Patents}: 20 \customnewline \textbf{Pending Patents}: 4  \customnewline \textbf{View Full Portfolio}: \hhref{https://patents.google.com/?inventor=Pravin+Rana&country=US&status=GRANT&dups=language}{Google Patents}\customnewline \textbf{Innovation Domains}: XR Platforms, Eye Tracking, 3D Imaging, Multiview Video, Optical System}
+
+\divider
+
+\cvachievement{\faBookOpen}{Peer-Reviewed Publications}{\textbf{Journal Articles}: 3 \customnewline \textbf{Conference Papers}: 7 \customnewline \textbf{View Full List}: \hhref{https://scholar.google.se/citations?user=9dIuZQcAAAAJ&hl=en}{Google Scholar} \customnewline \textbf{Research Areas}: Multiview Video, Machine Learning, Computer Vision, Depth Estimation}
+
+\cvsection{Achievements}
+
+\cvachievement{\faAward}{Tobii Star Performer Award}{Earned performance-based RSUs for consistently driving high-impact results in Tobii's XR program}
+
+\divider
+
+\cvachievement{\faLightbulb}{Tobii Top IP Contributor}{Credited with 18 U.S. patents powering headsets across leading brands, such as Sony, HTC, and ByteDance}
+
+\divider
+
+\cvachievement{\faRocket}{Tobii Dragon's Den Finalist}{Honored with second place for pitching a novel eye-tracking algorithm in a company-wide challenge}
+
+\divider
+
+\cvachievement{\faUniversity}{National Scholarship Recipient}{Awarded merit-based scholarship by the Government of India for studies at Indian Institute of Technology}
+
+\divider
+
+\cvachievement{\faChartLine}{India \hhref{https://en.wikipedia.org/wiki/Graduate_Aptitude_Test_in_Engineering}{GATE} Top Ranker}{Ranked 254 out of 4,904 in India's national entrance exam  in Physics for Master’s programs}
+
+\divider
+
+\cvachievement{\faMedal}{University Gold Medalist}{Graduated top of class in M.Sc. Physics from Ranchi University, earning highest academic honors}
+
+\divider
+
+\cvachievement{\faStar}{TIME Best Inventions}{Eye-tracking work featured in TIME’s via \hhref{https://time.com/collection/best-inventions-2019/5733087/htc-vive-pro-eye/}{HTC Vive Pro Eye (2019)} and \hhref{https://time.com/collection/best-inventions-2020/5911406/pico-neo-2-eye/}{Pico Neo 2 Eye (2020)}}
+
+\divider
+
+\cvachievement{\faMicrophone}{Public Communicator}{Presented on research, emerging tech, and product strategy at 12+ global conferences, Tobii internal tech forums, and company-wide all-hands}
+
+
+\cvsection{Languages}
+
+\cvskill{English}{4.5}
+
+\divider
+
+\cvskill{Hindi}{5}
+
+%\cvsection{Swedish Visa Status}
+%\cvsection{Referees}
+%\cvref{name}{email}{mailing address}
+%{Address Line 1\\Address line 2}
+
+\end{paracol}
+
+
+%\cvsection{Appendix A: Patents}
+%
+%% patent grants
+%\begin{refsection}[../bibliography/patent-issued.bib]
+%  \nocite{*}
+%  \printbibliography[heading=pubtype,title={\printinfo{\faCertificate}{US Patent Grants}},type=inproceedings]
+%\end{refsection}
+%
+%\divider
+%% pending patents
+%\begin{refsection}[../bibliography/patent-published.bib]
+%  \nocite{*}
+%  \printbibliography[heading=pubtype,title={\printinfo{\textcolor{gray}{\faCertificate}}{US Patent Applications}},type=inproceedings]
+%\end{refsection}
+%
+%\newpage
+%\cvsection{Appendix B: Publications}
+%
+%% articles
+%\begin{refsection}[../bibliography/refreed-journals.bib]
+%  \nocite{*}
+%  \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Refreed Journal Articles}},type=article]
+%\end{refsection}
+%
+%\divider
+%
+%% proceedings
+%\begin{refsection}[../bibliography/refreed-conferences.bib]
+%  \nocite{*}
+%  \printbibliography[heading=pubtype,title={\printinfo{\faUsers~}{Refreed Conference Proceedings}},type=inproceedings]
+%\end{refsection}
+%
+%\divider
+%
+%% preprints
+%\begin{refsection}[../bibliography/preprints.bib]
+%  \nocite{*}
+%  \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Preprints}},type=article]
+%\end{refsection}
+%
+%\divider
+%
+%%tech reports
+%\begin{refsection}[../bibliography/tech-reports.bib]
+%  \nocite{*}
+%  \printbibliography[heading=pubtype,title={\printinfo{\faFile}{Technical Reports}},type=report]
+%\end{refsection}
+%
+%\divider
+%
+%%conference abstracts
+%\begin{refsection}[../bibliography/conference-abstracts.bib]
+%  \nocite{*}
+%  \printbibliography[heading=pubtype,title={\printinfo{\faUsers~}{Conference Abstracts}},type=inproceedings]
+%\end{refsection}
+%
+%% footnote
+%\vfill
+%{\footnotesize Updated \today, Stockholm, Sweden}
+
+
+%\newpage
+%\cvsection{Appendix C: Speaking Engagements}
+%
+%\begin{enumerate}[label={[\arabic*]}]
+% \item \textbf{\textit{Introduced Tobii XR5-ML plaform}}, All-Hands Meeting, Tobii AB, Stockholm, Sweden, 2025
+%  \item \textbf{\textit{Eye tracking in the 5G era}}, Tobii Develop Beyond, Stockholm, Sweden, 2019
+%  \item \textbf{\textit{Tobii eye tracking VR development kit -- Demo session}}, ACCESS Workshop, Stockholm, Sweden, 2017
+%  \item \textbf{\textit{Stereo vision–based distance estimation in Tobii IS4 eye-tracking platform}}, Tobii Develop Beyond, Stockholm, Sweden, 2015
+%  \item \textbf{\textit{Statistical methods for inter-view depth enhancement}}, 3DTV-Con, Budapest, Hungary, 2014
+%  \item \textbf{\textit{Multiview depth map enhancement by variational Bayes inference estimation of Dirichlet mixture models}}, IEEE ICASSP, Vancouver, Canada, 2013
+%  \item \textbf{\textit{A variational Bayesian inference framework for multiview depth image enhancement}}, IEEE ISM, Irvine, USA, 2012
+%  \item \textbf{\textit{Denoising of volumetric depth confidence for view rendering}}, 3DTV-Con, Zurich, Switzerland, 2012
+%  \item \textbf{\textit{Depth pixel clustering for consistency testing of multiview depth}}, EUSIPCO, Bucharest, Romania, 2012
+%  \item \textbf{\textit{View interpolation with structured depth from multiview video}}, EUSIPCO, Barcelona, Spain, 2011
+%  \item \textbf{\textit{Depth consistency testing for improved view interpolation}}, IEEE MMSP, Saint Malo, France, 2010
+%  \item \textbf{\textit{Prediction of Antarctic sea ice edge using artificial intelligence}}, SCAR/IASC IPY Open Science Conference, St. Petersburg, Russia, 2008
+%  \item \textbf{\textit{Prediction of sea ice edge by using image processing techniques}}, DTU, Risø, Denmark, 2008
+%\end{enumerate}
+%% footnote
+%\vfill
+%{\footnotesize Updated \today, Stockholm, Sweden}
+
+\end{document}
+
